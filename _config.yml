@@ -35,10 +35,10 @@ preferences:
     enabled: true
 
 # Site Configuration
-title: "Your Site Title"
-heading: "Your Name"
-description: "A brief description of your site"
-url: "https://yoursite.com"
+title: "Hiran Venugopalan"
+heading: "Product Designer"
+description: "Personal Website and Digital Garden of Hiran Venugopalan"
+url: "https://hiran.in"
 baseurl: ""
 
 # Asset Configuration
@@ -57,11 +57,11 @@ menu:
 
 # Footer
 footer:
-  copyright: "Contents under CC-BY-NC"
+  copyright:
   credits:
     enabled: true
-    url: "/credits"
-    text: "Credits"
+    url: "/colophon"
+    text: "Colophon"
 
 # Collections
 collections:

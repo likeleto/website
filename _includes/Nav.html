@@ -1,47 +1,10 @@
 <nav class="nav">
   <div class="nav-left">
     <a href="{{ site.baseurl }}/">
-      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M11 19V11.6829C11 10.0664 12.3431 8.7561 14 8.7561C15.6569 8.7561 17 10.0664 17 11.6829V17.5366H22.7V10.2195C22.7 8.44878 24.185 7 26 7C27.6569 7 29 8.31034 29 9.92683V19" stroke="#18181C" stroke-width="1.4"></path>
-        <path d="M11 21V28.3171C11 29.9336 12.3431 31.2439 14 31.2439C15.6569 31.2439 17 29.9336 17 28.3171V22.4634H22.7V29.7805C22.7 31.5512 24.185 33 26 33C27.6569 33 29 31.6897 29 30.0732V21" stroke="#5D5D66" stroke-width="1.4"></path>
-      </svg>
+      <svg width="24" height="32" viewBox="0 0 24 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18 5.62695C18 4.41329 16.9869 3.40039 15.7002 3.40039C14.2554 3.40039 13.1006 4.552 13.1006 5.91992V13.9365H6V7.38281C5.99984 6.16924 4.9868 5.15625 3.7002 5.15625C2.41359 5.15625 1.40055 6.16924 1.40039 7.38281V14.7002H0V7.38281C0.000156419 5.36364 1.6732 3.75586 3.7002 3.75586C5.72719 3.75586 7.40023 5.36364 7.40039 7.38281V12.5371H11.7002V5.91992C11.7002 3.74641 13.515 2 15.7002 2C17.7273 2 19.4004 3.6077 19.4004 5.62695V14.7002H18V5.62695Z" fill="var(--title)"/>
+        <path d="M0 24.0176V16.7002H1.40039V24.0176C1.40055 25.2311 2.41359 26.2441 3.7002 26.2441C4.9868 26.2441 5.99984 25.2311 6 24.0176V17.4639H13.1006V25.4805C13.1006 26.8484 14.2554 28 15.7002 28C16.9869 28 18 26.9871 18 25.7734V16.7002H19.4004V25.7734C19.4004 27.7927 17.7273 29.4004 15.7002 29.4004C13.515 29.4004 11.7002 27.654 11.7002 25.4805V18.8633H7.40039V24.0176C7.40023 26.0367 5.72719 27.6445 3.7002 27.6445C1.6732 27.6445 0.000155892 26.0367 0 24.0176Z" fill="var(--text)"/>
+        </svg>        
     </a>
   </div>
-  
-  <div class="dropdown">
-    <div class="hamburger">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M3 6H21M3 12H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-    </div>
-    <div class="dropdown-menu">
-      {%- if site.menu -%}
-        {%- for item in site.menu -%}
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-        {%- endfor -%}
-      {%- else -%}
-        <a href="{{ site.baseurl }}/">About</a>
-        <a href="{{ site.baseurl }}/notes">Notes</a>
-        <a href="{{ site.baseurl }}/about">About</a>
-      {%- endif -%}
-    </div>
-  </div>
 </nav>
-
-<script>
-  const hamburger = document.querySelector('.hamburger');
-  const dropdown = document.querySelector('.dropdown');
-  
-  hamburger.addEventListener('click', function(e) {
-    e.stopPropagation();
-    this.classList.toggle('active');
-    dropdown.classList.toggle('active');
-  });
-  
-  document.addEventListener('click', function(e) {
-    if (!e.target.closest('.dropdown')) {
-      hamburger.classList.remove('active');
-      dropdown.classList.remove('active');
-    }
-  });
-</script>

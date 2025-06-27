@@ -1,5 +1,5 @@
 <!-- feed with filter-->
-<div class="related-wrapper">
+<div class="feed-container">
 {% assign note_items = site.notes | sort: "date" | reverse %}
 {% for note_items in note_items %}
     {%- if note_items.feed == "show" -%}

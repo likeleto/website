@@ -102,7 +102,7 @@
             
             <!--- Blog Feed Layout-->
             {%- if page.permalink == "/blog" -%}
-                <div class="related-wrapper">
+                <div class="feed-container">
                 {% assign post_items = site.posts | sort: "date" | reverse %}
                 {% for post_items in post_items %}
                     {%- if post_items.feed == "show" -%}

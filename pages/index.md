@@ -1,53 +1,43 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: Post
 permalink: /
 title: Jekyll Garden
 ---
+<h3>Intro</h3>
+<p>
+  <strong>Hiran Venugopalan</strong><br>
+  Product and type designer with 14 years of building and leading design teams. Currently crafting digital experiences at <a href="https://www.kaleyra.com/">Kaleyra</a>
+</p>
 
-<div class="section-grid">
-  <div class="section-row">
-    <div class="section-title">Intro</div>
-    <div class="section-content">
-      <strong>Hiran Venugopalan</strong><br>
-      Product and type designer with 14 years of building and leading design teams. Currently crafting digital experiences at Kaleyra.
-    </div>
+<h3>ToC</h3>
+<div class="toc-list">
+  <div class="toc-col">
+    <div><a href="/notes">Working Notes</a> <span class="toc-count">{{ site.notes | where_exp: "note", "note.category == 'Notes'" | size }}</span></div>
+    <div><a href="/logs">Logs</a> <span class="toc-count">{{ site.notes | where_exp: "note", "note.category == 'Logs'" | size }}</span></div>
+    <div><a href="/web-found">WebFound</a> <span class="toc-count">{{ site.notes | where_exp: "note", "note.category == 'WebFound'" | size }}</span></div>
+    <div><a href="/topics">Things</a> <span class="toc-count">{{ site.notes | where_exp: "note", "note.category == 'Things'" | size }}</span></div>
   </div>
-  <div class="section-row">
-    <div class="section-title">ToC</div>
-    <div class="section-content toc-list">
-      <div class="toc-col">
-        <div>Working Notes <span class="toc-count">55</span></div>
-        <div>Logs <span class="toc-count">130</span></div>
-        <div>WebFound <span class="toc-count">118</span></div>
-        <div>Things <span class="toc-count">65</span></div>
-      </div>
-      <div class="toc-col">
-        <div>About</div>
-        <div>Coaching</div>
-        <div>Found*</div>
-        <div>Email</div>
-      </div>
-    </div>
+  <div class="toc-col">
+    <div><a href="/about">About</a></div>
+    <div><a href="/contact">Coaching</a></div>
+    <div><a href="https://found.hiran.in/">The Found*</a></div>
+    <div><a href="mailto:hiran.v@gmail.com">Email</a></div>
   </div>
-  <div class="section-row">
-    <div class="section-title">Contact</div>
-    <div class="section-content">
-      I build things and love collaborating on experimental projects with like-minded people. I also mentor designers looking to grow. Drop me an email if you'd like to connect or explore ideas together. I live in Bangalore, if you're ever here — let's meet for a cup of coffee.
-    </div>
-  </div>
-  <div class="section-row">
-    <div class="section-title">Newsletter</div>
-    <div class="section-content">
-      I build things and love collaborating on experimental projects with like-minded people.
-    </div>
-  </div>
-  <div class="section-row">
-    <div class="section-title">Now</div>
-    <div class="section-content">
-      Building and ideating on strategic design projects at work. On personal front, feeling excited about reviving my newsletter next month and launching a curation project early 2024. Getting my hands dirty with interior design learning, and looking forward to more travels and offline meetings in the coming months. <span style="font-size: 0.8em; opacity: 0.7;">13 Oct 2025</span>
-    </div>
-  </div>
+</div>
+
+<h3>Contact</h3>
+<p>
+I build <i>things</i> and love collaborating on experimental projects. I also mentor designers, founders, and teams on design, strategy, and growth. If you're curious to work together, or explore ideas, <a href="/contact">reach out here</a>. I'm based in Bangalore - happy to meet for a coffee if you're around.
+</p>
+
+<h3>Newsletter</h3>
+<p>
+  Every so often, I send out a short, bite-sized newsletter - quick ideas, tools, and links that sparked something. <a href="https://hiran.substack.com/">Subscribe</a> to stay in the loop.
+</p>
+
+<h3>Now</h3>
+<div>
+  {% assign now_page = site.pages | where: "permalink", "/now" | first %}
+  {{ now_page.content | markdownify }}
+  {{ now_page.date | date: "%d %b %Y" }}
 </div>
