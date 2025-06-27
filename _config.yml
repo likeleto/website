@@ -24,9 +24,9 @@
 # Preferences (controls template behavior)
 preferences:
   homepage:
-    enabled: false
-  search:
     enabled: true
+  search:
+    enabled: false
   backlinks:
     enabled: true
   pagepreview:
@@ -57,7 +57,7 @@ menu:
 
 # Footer
 footer:
-  copyright: "© 2024 Your Name. Contents under CC-BY-NC"
+  copyright: "Contents under CC-BY-NC"
   credits:
     enabled: true
     url: "/credits"

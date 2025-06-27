@@ -1,30 +1,29 @@
 <nav class="nav">
   <div class="nav-left">
     <a href="{{ site.baseurl }}/">
-      <svg width="32" height="32" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <rect x="8" y="8" width="16" height="16" rx="4" />
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11 19V11.6829C11 10.0664 12.3431 8.7561 14 8.7561C15.6569 8.7561 17 10.0664 17 11.6829V17.5366H22.7V10.2195C22.7 8.44878 24.185 7 26 7C27.6569 7 29 8.31034 29 9.92683V19" stroke="#18181C" stroke-width="1.4"></path>
+        <path d="M11 21V28.3171C11 29.9336 12.3431 31.2439 14 31.2439C15.6569 31.2439 17 29.9336 17 28.3171V22.4634H22.7V29.7805C22.7 31.5512 24.185 33 26 33C27.6569 33 29 31.6897 29 30.0732V21" stroke="#5D5D66" stroke-width="1.4"></path>
       </svg>
     </a>
   </div>
   
-  <div class="nav-right">
-    <div class="dropdown">
-      <div class="hamburger">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M3 6H21M3 12H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </div>
-      <div class="dropdown-menu">
-        {%- if site.menu -%}
-          {%- for item in site.menu -%}
-            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-          {%- endfor -%}
-        {%- else -%}
-          <a href="{{ site.baseurl }}/">About</a>
-          <a href="{{ site.baseurl }}/notes">Notes</a>
-          <a href="{{ site.baseurl }}/about">About</a>
-        {%- endif -%}
-      </div>
+  <div class="dropdown">
+    <div class="hamburger">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 6H21M3 12H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div class="dropdown-menu">
+      {%- if site.menu -%}
+        {%- for item in site.menu -%}
+          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+        {%- endfor -%}
+      {%- else -%}
+        <a href="{{ site.baseurl }}/">About</a>
+        <a href="{{ site.baseurl }}/notes">Notes</a>
+        <a href="{{ site.baseurl }}/about">About</a>
+      {%- endif -%}
     </div>
   </div>
 </nav>
