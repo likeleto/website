@@ -10,7 +10,7 @@ I occasionally mentor designers, founders, and early-stage teams. I enjoy helpin
 
 You can:
 
-- 📅 Book a session on <a href="https://topmate.io/hiran"> Ttopmate</a>
+- 📅 Book a session on <a href="https://topmate.io/hiran"> Topmate</a>
 - 🤝 Connect via <a href="https://adplist.org/mentors/hiran-venugopalan">ADPList</a>
 - ✉️ Drop me an <a href="mailto:hi@hiran.in">email</a>
--📍 Based in Bangalore? <a href="https://topmate.io/hiran/1602426">Let’s grab a coffee sometime.</a>
+- 📍 Based in Bangalore? <a href="https://topmate.io/hiran/1602426">Let’s grab a coffee sometime.</a>

@@ -1,8 +1,7 @@
 ---
-title: Notes
+title: Working Notes
 layout: Post
 permalink: /notes
-content-type: static
 ---
 
-Browse all published notes in your digital garden. Notes are organized by connections, not chronology. Click any note to explore its links and context.
+Explore my Digital Garden of evolving notes on diverse categorys, waiting to bloom over time.
