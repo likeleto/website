@@ -1,8 +1,7 @@
 ---
 title: Create to Give
 date: 2024-11-03
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 Make things thinking about who will use them, not just about finishing a task. When you write, picture the person who will read it. When you cook, imagine who will eat the meal. When you build something, think of who will find it helpful.
 

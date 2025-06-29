@@ -1,8 +1,7 @@
 ---
 title: Good meeting checklist
 date: 2024-06-17
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 1. Clearly define the meeting's purpose, whether it's to clarify doubts, share thoughts, align everyone, or debate differing viewpoints. 
 2. Specify who should attend, their roles, and if they need to present or prepare, including optional attendees. 

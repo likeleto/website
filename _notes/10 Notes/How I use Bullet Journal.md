@@ -1,8 +1,7 @@
 ---
 title: How I use Bullet Journal
 date: 2024-10-03
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 For the last seven years, I've used notebooks and journals for planning and thinking. Digital to-do apps never worked for me. They made me feel exhausted and overwhelmed. ([[Pick your tools that serve purpose]]). 
 

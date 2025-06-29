@@ -1,8 +1,7 @@
 ---
 title: Explaining the Obvious
 date: 2024-10-04
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 You might assume everyone knows about a certain feature or that explaining it would be redundant. But what's familiar to you may be new to others. They might have seen a pattern without truly understanding it. As a product designer, explaining the seemingly obvious often becomes necessary. 
 

@@ -1,8 +1,7 @@
 ---
 title: Design Decision Log
 date: 2024-06-17
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 Documenting design is challenging, as it occurs at various product stages, from strategic conceptualisation to last-minute changes due to engineering limitations. Like [[Documenting Meetings]], it's helpful to track design evolution from a decision perspective.
 

@@ -1,8 +1,7 @@
 ---
 title: Breadboarding over Wireframes
 date: 2024-06-17
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 I recommend product people to create Breadboarding over Wireframing, as initial product documentation _especially to interact with designers_. Wireframes are too detailed. The extra detailing kills the possibility of abstraction. Wireframe focuses more on on-screen interactions (which provides designers less room for creativity) and not the workflow or the user journey (and this leads to estimation errors as [[Overspecification leads to estimation errors]])
 

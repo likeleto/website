@@ -1,8 +1,7 @@
 ---
 title: Making notes is the easiest part
 date: 2024-06-17
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 It's easy to make notes.And there are many easier ways to make notes — like Copy-pasting or Quoting.What we miss while doing that is the intention of note-taking.
 

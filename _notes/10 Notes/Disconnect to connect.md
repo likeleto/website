@@ -1,8 +1,7 @@
 ---
 title: Disconnect to connect
 date: 2024-11-09
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 
 

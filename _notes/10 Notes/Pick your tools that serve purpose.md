@@ -1,8 +1,7 @@
 ---
 title: Pick your tools that serve purpose
 date: 2024-10-03
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 Tools are useful only if they serve their purpose. Complex tools don't guarantee better results. Use tools that help you work more effectively.
 

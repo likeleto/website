@@ -1,8 +1,7 @@
 ---
 title: Difference between Evergreen and Zettel
 date: 2024-06-02
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 
 [[Evergreen Notes]] is very similar to [[Zettelkasten]], and the core principles are almost the same. The difference is that Zettelkasten consider literature notes and permanent notes as a tool for building outputs (academic papers, blogs) , while Evergreen / Digital garden, focuses on knowledge accumulation. 

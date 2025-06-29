@@ -1,8 +1,7 @@
 ---
 title: Keep user experience discussions at the product level
 date: 2024-06-17
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 User experience is the overall product experience, and it has to be taken into consideration at the product level and not at the feature level. The persona, flow learning curve, expected feedbacks, etc., should be on the product level. 
 

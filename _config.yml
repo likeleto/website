@@ -67,7 +67,6 @@ footer:
 collections:
   notes:
     output: true
-    permalink: /:collection/:name
 
 # Defaults
 defaults:
@@ -78,6 +77,22 @@ defaults:
       layout: "Post"
       content-type: "notes"
       feed: "show"
+      permalink: /notes/:name
+  - scope:
+      path: "_notes/Projects"
+      type: "notes"
+    values:
+      permalink: /projects/:name
+  - scope:
+      path: "_notes/Logs"
+      type: "notes"
+    values:
+      permalink: /logs/:name
+  - scope:
+      path: "_notes/20 Logs"
+      type: "notes"
+    values:
+      permalink: /logs/:name
   - scope:
       path: ""
       type: "posts"
@@ -103,7 +118,6 @@ katex: true
 # Exclude from processing
 exclude:
 - _notes/00 Inbox
-- _notes/20 Logs
 - _notes/80 Topics
 - _notes/90 Private
 #   - .sass-cache/

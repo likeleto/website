@@ -1,8 +1,7 @@
 ---
 title: Accessibility is the first rule of Functionality
 date: 2024-10-03
-category: Things
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 Systems, products, and templates fail if people can't use them effectively. Accessibility is key for all of these. Restrictions and friction can make tools inefficient.
 

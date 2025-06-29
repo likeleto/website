@@ -1,8 +1,7 @@
 ---
 title: Do less
 date: 2024-09-04
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 The "Do Less" philosophy challenges the notion that constant busyness equals productivity. It's about focusing on what truly matters and letting go of unnecessary tasks. By doing less, we create space for more meaningful work and life experiences. This approach isn't about being lazy; it's about being intentional with our time and energy.  
 

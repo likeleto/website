@@ -1,8 +1,7 @@
 ---
 title: Software design should be opinionated
 date: 2024-06-12
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 
 *Chair that fits all buttocks* is an old way of thinking. Software, by design, should be opinionated. It should have principles, a manifesto, and a targeted user persona. Building a flexible software, that fits everyone's needs and workflow will end up creating a chaos. 

@@ -1,8 +1,7 @@
 ---
 title: Stop spending time on Wireframing
 date: 2024-06-11
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 While Wire-framing using pen and paper is an interesting way of communication that helps in building clarity over the idea – it is time-consuming for non-designers. Especially when non-designer manager uses it as a tool to communicate with designers. 
 

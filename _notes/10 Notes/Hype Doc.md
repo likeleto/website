@@ -1,8 +1,7 @@
 ---
 title: Hype Doc
 date: 2024-10-03
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 Despite [[Documenting Meetings]], creating a [[Design Decision Log]], [[Save Screenshots]], and having a clear [[How I use Bullet Journal]] method, I often draw a blank during yearly reviews. The Hype Doc solves this issue. It's an ever-growing note on small wins, accomplishments, and aspirations.
 

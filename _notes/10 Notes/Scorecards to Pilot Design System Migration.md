@@ -1,8 +1,7 @@
 ---
 title: Scorecards to Pilot Design System Migration
 date: 2024-06-08
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 
 Start building a design system by building a weighted Interface Inventory, based on frequency of reuse of common components. Then start with a pilot project. Use Pareto Principle.

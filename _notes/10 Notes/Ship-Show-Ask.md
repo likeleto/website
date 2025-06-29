@@ -1,8 +1,7 @@
 ---
 title: Ship-Show-Ask
 date: 2024-06-14
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 
 Ship/Show/Ask is a branching strategy that combines the features of Pull Requests with the option to continue shipping changes.  There are three categories of changes in this method. They are **Ship** (Merge to main, without review), **Show** (PR and Merge to Main) and **Ask** (PR, then discuss, then merge). 

@@ -1,8 +1,7 @@
 ---
 title: Slam it Shut and move on
 date: 2024-06-17
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 Stop seeing books or any source of knowledge as a measurement of success. Quantity of source is not the criteria of success. 
 

@@ -1,8 +1,7 @@
 ---
 title: Writing the way you think
 date: 2024-06-03
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 
 The format of writing can change based on the intention of writing. It can be rapid logging bullet points, like what [[Bullet Journaling]] recommends, or [[Outline Notes]] so that their structure is defined, or atomic notes recommended by [[Zettelkasten]], or its new-generation fork [[Evergreen Notes]]. Similarly, articulation can be targeted to the consumer. 

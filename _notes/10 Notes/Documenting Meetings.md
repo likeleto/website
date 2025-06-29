@@ -1,8 +1,7 @@
 ---
 title: Documenting Meetings
 date: 2024-10-03
-category: Notes
-internal-tag: "[[Working Notes]]"
+category: "[[Notes]]"
 ---
 Meeting notes should focus on clear information. Keep them simple so you can remember details later. Every meeting involves people, and conversations usually fall into a few categories. I use these basic principles to quickly summarize meetings.
 
