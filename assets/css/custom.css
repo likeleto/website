@@ -42,61 +42,61 @@ h1 {
   margin-bottom: var(--space-xl);
 }
 
-/* External Link Icons for Links Grid */
-.links-grid a[href^="http://"]:after, 
-.links-grid a[href^="https://"]:after {
-  content: '';
-  display: inline-block;
-  width: .6em;
-  height: .6em;
-  margin-left: 0.25em;
-  vertical-align: text-top;
-  background: url('data:image/svg+xml;utf8,%3Csvg%20width=%2212%22%20height=%2212%22%20viewBox=%220%200%2024%2024%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M5%2019L19%205M5%205h14v14%22%20stroke=%22%2340513B%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E') no-repeat center center;
-  background-size: .6em .6em;
-  opacity: 0.7;
+/* Global External Link Icons */
+:root {
+    a[href^="http://"]:after, a[href^="https://"]:after {
+        content: '';
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        margin-left: 0.25em;
+        vertical-align: text-top;
+        background-image: url('data:image/svg+xml;utf8,%3Csvg%20width=%2212%22%20height=%2212%22%20viewBox=%220%200%2024%2024%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M5%2019L19%205M5%205h14v14%22%20stroke=%22%2340513B%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E');
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.7;
+    }
 }
 
-[data-theme="dark"] .links-grid a[href^="http://"]:after, 
-[data-theme="dark"] .links-grid a[href^="https://"]:after {
-  background: url('data:image/svg+xml;utf8,%3Csvg%20width=%2212%22%20height=%2212%22%20viewBox=%220%200%2024%2024%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M5%2019L19%205M5%205h14v14%22%20stroke=%22%23E7EDE3%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E') no-repeat center center;
+[data-theme="dark"] {
+    a[href^="http://"]:after, a[href^="https://"]:after {
+        background-image: url('data:image/svg+xml;utf8,%3Csvg%20width=%2212%22%20height=%2212%22%20viewBox=%220%200%2024%2024%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M5%2019L19%205M5%205h14v14%22%20stroke=%22%23E7EDE3%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E');
+    }
 }
 
-/* External Link Icons for Card Grid */
+/* Exclude from certain elements */
+.toc-list a[href^="http://"]:after, 
+.toc-list a[href^="https://"]:after,
+.nav a[href^="http://"]:after, 
+.nav a[href^="https://"]:after,
+.footer a[href^="http://"]:after, 
+.footer a[href^="https://"]:after {
+  display: none;
+}
+
+/* Special handling for card grid - icon appears next to h4 */
+.card-grid a[href^="http://"]:after, 
+.card-grid a[href^="https://"]:after {
+  display: none;
+}
+
 .card-grid a[href^="http://"] h4:after, 
 .card-grid a[href^="https://"] h4:after {
   content: '';
   display: inline-block;
-  width: .6em;
-  height: .6em;
+  width: 12px;
+  height: 12px;
   margin-left: 0.25em;
   vertical-align: text-top;
-  background: url('data:image/svg+xml;utf8,%3Csvg%20width=%2212%22%20height=%2212%22%20viewBox=%220%200%2024%2024%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M5%2019L19%205M5%205h14v14%22%20stroke=%22%2340513B%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E') no-repeat center center;
-  background-size: .6em .6em;
+  background-image: url('data:image/svg+xml;utf8,%3Csvg%20width=%2212%22%20height=%2212%22%20viewBox=%220%200%2024%2024%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M5%2019L19%205M5%205h14v14%22%20stroke=%22%2340513B%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E');
+  background-size: contain;
+  background-repeat: no-repeat;
   opacity: 0.7;
 }
 
 [data-theme="dark"] .card-grid a[href^="http://"] h4:after, 
 [data-theme="dark"] .card-grid a[href^="https://"] h4:after {
-  background: url('data:image/svg+xml;utf8,%3Csvg%20width=%2212%22%20height=%2212%22%20viewBox=%220%200%2024%2024%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M5%2019L19%205M5%205h14v14%22%20stroke=%22%23E7EDE3%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E') no-repeat center center;
-}
-
-/* External Link Icons for List Items */
-.list-items a[href^="http://"]:after, 
-.list-items a[href^="https://"]:after {
-  content: '';
-  display: inline-block;
-  width: .6em;
-  height: .6em;
-  margin-left: 0.25em;
-  vertical-align: text-top;
-  background: url('data:image/svg+xml;utf8,%3Csvg%20width=%2212%22%20height=%2212%22%20viewBox=%220%200%2024%2024%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M5%2019L19%205M5%205h14v14%22%20stroke=%22%2340513B%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E') no-repeat center center;
-  background-size: .6em .6em;
-  opacity: 0.7;
-}
-
-[data-theme="dark"] .list-items a[href^="http://"]:after, 
-[data-theme="dark"] .list-items a[href^="https://"]:after {
-  background: url('data:image/svg+xml;utf8,%3Csvg%20width=%2212%22%20height=%2212%22%20viewBox=%220%200%2024%2024%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M5%2019L19%205M5%205h14v14%22%20stroke=%22%23E7EDE3%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E') no-repeat center center;
+  background-image: url('data:image/svg+xml;utf8,%3Csvg%20width=%2212%22%20height=%2212%22%20viewBox=%220%200%2024%2024%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M5%2019L19%205M5%205h14v14%22%20stroke=%22%23E7EDE3%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E');
 }
 
 /* Generic List Page Styles */
@@ -177,4 +177,22 @@ h1 {
   .list-meta {
     align-self: flex-start;
   }
+}
+
+/* Generic small link style */
+.small-link {
+  font-size: var(--scale-xs);
+  color: var(--text);
+  opacity: 0.7;
+}
+
+.small-link a {
+  text-decoration: none;
+  color: var(--text);
+  opacity: 0.7;
+}
+
+.small-link a:hover {
+  text-decoration: underline;
+  opacity: 1;
 } 

@@ -732,26 +732,6 @@ img {
   margin: var(--space-md) 0;
 }
 
-p a[href^="http://"]:after, p a[href^="https://"]:after,
-li a[href^="http://"]:after, li a[href^="https://"]:after {
-  content: '';
-  display: inline-block;
-  width: .6em;
-  height: .6em;
-  margin-left: 0.25em;
-  vertical-align: text-top;
-  background: url('data:image/svg+xml;utf8,%3Csvg%20width=%2212%22%20height=%2212%22%20viewBox=%220%200%2024%2024%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M5%2019L19%205M5%205h14v14%22%20stroke=%22%2340513B%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E') no-repeat center center;
-  background-size: .6em .6em;
-  opacity: 0.7;
-}
-
-[data-theme="dark"] p a[href^="http://"]:after, 
-[data-theme="dark"] p a[href^="https://"]:after,
-[data-theme="dark"] li a[href^="http://"]:after, 
-[data-theme="dark"] li a[href^="https://"]:after {
-  background: url('data:image/svg+xml;utf8,%3Csvg%20width=%2212%22%20height=%2212%22%20viewBox=%220%200%2024%2024%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M5%2019L19%205M5%205h14v14%22%20stroke=%22%23E7EDE3%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E') no-repeat center center;
-}
-
 /* Card Grid */
 .card-grid {
   display: grid;
@@ -761,7 +741,7 @@ li a[href^="http://"]:after, li a[href^="https://"]:after {
 }
 
 .card {
-  border: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
   padding: var(--space-sm);
   background-color: var(--bg);
   transition: all 0.3s ease;
