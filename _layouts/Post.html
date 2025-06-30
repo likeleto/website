@@ -74,7 +74,6 @@
                 <h1>{{page.title}}</h1>
                 {%- include Content.html -%}
                 {%- include Search.html -%}
-                {%- include Feed.html -%}
             {%- endif -%}
 
             <!--- Notes Layout-->
@@ -116,6 +115,12 @@
                 {%- endfor -%}
                 </div>
             {%- endif -%}
+
+            <!--- Default Page Layout for category pages and other pages -->
+            {%- unless page.permalink == "/" or page.permalink == "/notes" or page.permalink == "/blog" or page.content-type == "notes" or page.content-type == "post" or page.content-type == "static" -%}
+                <h1>{{page.title}}</h1>
+                {%- include Content.html -%}
+            {%- endunless -%}
 
             {%- include Footer.html -%}
         </div>

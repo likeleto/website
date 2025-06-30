@@ -195,4 +195,82 @@ h1 {
 .small-link a:hover {
   text-decoration: underline;
   opacity: 1;
-} 
+}
+
+/* Project Item Styles - Simplified to match notes design */
+.project-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-md);
+  padding-bottom: var(--space-md);
+  margin-bottom: var(--space-md);
+  border-bottom: 1px solid var(--border);
+}
+
+.project-item:last-child {
+  border-bottom: none;
+}
+
+.project-content {
+  flex: 1;
+}
+
+.project-title {
+  margin: 0 0 var(--space-sm) 0;
+  color: var(--title);
+}
+
+.project-title a {
+  color: var(--title);
+  text-decoration: none;
+}
+
+.project-title a:hover {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+.project-description {
+  margin: 0;
+  color: var(--text);
+  font-size: var(--scale-sm);
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+.project-description:hover {
+  text-decoration: none;
+}
+
+.project-period {
+  flex-shrink: 0;
+}
+
+.period-pill {
+  display: inline-block;
+  padding: 2px 6px;
+  color: var(--text);
+  font-size: var(--scale-xs);
+  opacity: 0.7;
+  white-space: nowrap;
+}
+
+/* Fix external link icon positioning for project titles */
+.project-title a[href^="http://"]:after, 
+.project-title a[href^="https://"]:after {
+  vertical-align: middle;
+  margin-left: 0.25em;
+}
+
+@media (max-width: 768px) {
+  .project-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-sm);
+  }
+  
+  .project-period {
+    align-self: flex-start;
+  }
+}

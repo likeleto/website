@@ -558,21 +558,9 @@ td {
   transition: all 0.3s ease;
 }
 
-.notelist-feed:hover {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
 .notelist-feed a {
   text-decoration: none;
   color: inherit;
-}
-
-.notelist-feed p {
-  color: var(--title);
-  margin-bottom: 0;
-  font-size: var(--scale-base);
-  font-weight: var(--weight-medium);
 }
 
 .list-feed {
