@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
   --bg: #FFFFFF;
   --bg2: #E7EDE3;
@@ -7,9 +6,9 @@
   --title: #354131;
   --border: rgba(64, 81, 59, 0.1);
 
-  --font: "Inter", sans-serif;
+  --font: "Public Sans", sans-serif;
   --weight-medium: 400;
-  --weight-bold: 600;
+  --weight-bold: 700;
   
   --space-xs: 0.4rem;
   --space-sm: 0.8rem;
@@ -275,7 +274,7 @@ a:hover {
 
 .links-grid li {
   border-bottom: 1px solid var(--border);
-  padding: var(--space-xs) 0;
+  padding: var(--space-sm) var(--space-xs);
   background-color: var(--bg);
   transition: all 0.3s ease;
 }

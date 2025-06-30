@@ -77,22 +77,22 @@ defaults:
       layout: "Post"
       content-type: "notes"
       feed: "show"
-      permalink: /notes/:name
+      permalink: /note/:name
   - scope:
       path: "_notes/Projects"
       type: "notes"
     values:
-      permalink: /projects/:name
+      permalink: /project/:name
   - scope:
       path: "_notes/Logs"
       type: "notes"
     values:
-      permalink: /logs/:name
+      permalink: /log/:name
   - scope:
       path: "_notes/20 Logs"
       type: "notes"
     values:
-      permalink: /logs/:name
+      permalink: /log/:name
   - scope:
       path: ""
       type: "posts"

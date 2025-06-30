@@ -19,7 +19,7 @@
 
 .back-button:hover {
   color: var(--text);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .back-button svg {
@@ -30,8 +30,8 @@
 @media (min-width: 768px) {
   .back-button-container {
     position: fixed;
-    left: var(--space-xl);
-    top: 24%;
+    left: 8rem;
+    top: 8rem;
     z-index: 100;
     margin-bottom: 0;
   }
