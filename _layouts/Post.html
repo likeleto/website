@@ -46,7 +46,6 @@
         <link href="{{ site.baseurl }}/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
         {%- endif -%}
     <![endif]-->
-    <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 </head>
 
@@ -55,13 +54,10 @@
         <div>
             {%- include Nav.html -%}
             
-            <!-- Homepage Layout-->
             {%- if page.permalink == "/" -%}
                 {%- if site.preferences.homepage.enabled -%}
-                    <!--- Show content from index.md when homepage is enabled -->
                     {%- include Content.html -%}
                 {%- else -%}
-                    <!--- Show content from notes.md + search + feed when homepage is disabled -->
                     <h1>{{page.title}}</h1>
                     {%- include Content.html -%}
                     {%- include Search.html -%}
@@ -69,14 +65,12 @@
                 {%- endif -%}
             {%- endif -%}
 
-            <!--- Notes Feed Layout-->
             {%- if page.permalink == "/notes" -%}
                 <h1>{{page.title}}</h1>
                 {%- include Content.html -%}
                 {%- include Search.html -%}
             {%- endif -%}
 
-            <!--- Notes Layout-->
             {%- if page.content-type == "notes" -%}
                 <h1>{{page.title}}</h1>
                 {%- include Content.html -%}
@@ -85,7 +79,6 @@
                 {%- endif -%}
             {%- endif -%}
 
-             <!--- Post Layout-->
              {%- if page.content-type == "post"  -%}
                  <h1>{{page.title}}</h1>
                  {%- include Content.html -%}
@@ -94,13 +87,11 @@
                  {%- endif -%}
              {%- endif -%}
 
-            <!--- Static Page Layout-->
             {%- if page.content-type == "static" -%}
                 <h1>{{page.title}}</h1>                        
                 {%- include Content.html -%}
             {%- endif -%}
             
-            <!--- Blog Feed Layout-->
             {%- if page.permalink == "/blog" -%}
                 <div class="feed-container">
                 {% assign post_items = site.posts | sort: "date" | reverse %}
@@ -116,7 +107,6 @@
                 </div>
             {%- endif -%}
 
-            <!--- Default Page Layout for category pages and other pages -->
             {%- unless page.permalink == "/" or page.permalink == "/notes" or page.permalink == "/blog" or page.content-type == "notes" or page.content-type == "post" or page.content-type == "static" -%}
                 <h1>{{page.title}}</h1>
                 {%- include Content.html -%}

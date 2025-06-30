@@ -563,21 +563,6 @@ td {
   color: inherit;
 }
 
-.list-feed {
-  border-bottom: 1px solid var(--border);
-  padding: var(--space-sm) 0;
-}
-
-.list-feed a {
-  text-decoration: none;
-  color: var(--title);
-  transition: color 0.3s ease;
-}
-
-.list-feed a:hover {
-  color: var(--text);
-}
-
 /* Hide/show classes for backlinks */
 .hide {
   display: none;

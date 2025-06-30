@@ -2,16 +2,23 @@
 layout: Post
 permalink: /about
 title: About Hiran Venugopalan
-content-type: static
+content -type: static
 ---
-Hiran Venugopalan is a maker, product and type designer, and design mentor currently living in Bangalore, India. With over twelve years of experience in designing type, product, brand, and strategies, he uses design to solve problems integrating user needs, requirements of business success, and the possibilities of technology.
+I’m a designer working on platform experience at [Kaleyra](https://www.kaleyra.com/). Most of my work sits somewhere between how things are built, how they’re used, and how everything fits together.
 
-![Hiran Venugopalan](/assets/img/hiran-2020-asif.png)
+![Hiran Venugopalan, 2020](/assets/img/hiran-2020-asif.png)
 
-Hiran's design and tech career started in 2006 while playing a leadership role in reimagining and reactivating [Swathanthra Malayalam Computing](https://smc.org.in/ "Swathanthra Malayalam Computing") . Designing was something he volunteered as a contribution to FOSS Project, which soon became a freelancing option. A year later, he participated in the [Google Summer of Code](https://developers.google.com/open-source/gsoc/2007) designing the first Decorative Unicode Malayalam typeface.
+I’ve been doing design work since 2010 - fifteen years of sketching, shipping, messing up, fixing, and figuring things out again. Before Kaleyra, I worked on civic tech platforms, publishing tools, and communication products - across teams that were just starting up, and others figuring out scale.
 
-In the first four years of his career, he envisioned and christened Saltmangotree, one of the first Indian digital marketing agencies and led the technology and design teams until acquisition by a French MNC. Since then, he is working as a Product Designer on tech products related to civic engagement, content publishing, and communication.
+A while ago, I co-founded Saltmangotree, one of the early digital marketing studios in India. I led design and tech there and stayed on until it was acquired by a French company. Yes, we named it after a line from an Malayalam movie — an inside joke that stuck.
 
-As side hustles, he co-created [Malayaleegraphy](https://www.facebook.com/malayaleegraphy/ "Malayaleegraphy"), [Chali Machine](http://www.chalimachine.com/create/ "Chali Machine"), initiated [Kerala Designer Co](https://kdco.info/ "Kerala Designer Co"), and designed a couple of fonts - [Dyuthi](https://www.behance.net/gallery/88259217/Dyuthi-Ornamental-Malayalam-Unicode-Typeface "Dyuthi") (Malayalam/2008), [Rufscript](https://www.behance.net/gallery/88284601/Rufscript-English-Handwriting-Unicode-Font "Rufscript") (Limited Latin/2009).
+My path into all this started with curiosity around free software. That, combined with the early days of internet communities, led me to people asking similar questions. One thing led to another, and I found myself contributing to [Swathanthra Malayalam Computing](https://smc.org.in/) - a community building tools for Malayalam computing. I focused on type design and helped shape the group's direction from a community side. 
+In 2009, I designed [Dyuthi Unicode Malayalam font](https://smc.org.in/fonts/#dyuthi), a Unicode Malayalam display font during Google Summer of Code. It was one of the first in that category—built with full complexity. I later released [Rufscript](https://fontlibrary.org/en/font/rufscript), a Latin display typeface.
 
-Being a self-learner, Hiran is passionate about sharing his knowledge provides coaching and mentoring design and product. Other interest includes reading, movies, and traveling.
+I’ve also worked on side projects like [Malayaleegraphy](https://facebook.com/malayaleegraphy), [Chali Machine](https://behance.net/gallery/40300789/the-chali-machine), and [Kerala Designer Co.](https://www.instagram.com/kdco_official/). Some were experiments, some collaborations, most came out of the itch to build and see what happens.
+
+Over the years, I’ve spent time mentoring designers and early product folks — not just about tools or portfolios, but around the stuff that’s harder to Google. It usually comes from leading and managing design teams, and I try to adapt based on where someone is and what they’re trying to figure out. I enjoy these conversations - part advice, part collaboration, and often the start of something bigger.
+
+Outside of work, I help out at [Moonbowl](https://www.instagram.com/moonbowl.in/), a cloud kitchen run by my partner. On busy days, I turn into the barback, the packer - whatever keeps the day running. I also enjoy manual coffee brewing and run occasional workshops for people who want to explore it.
+
+I also read, watch films, and travel — always as a tourist, even in the cities I’ve lived in for years.

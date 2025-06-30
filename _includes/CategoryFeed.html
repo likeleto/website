@@ -1,4 +1,3 @@
-<!-- category-based feed with different layouts -->
 <div class="feed-container">
 {% if include.category == "[[Projects]]" %}
     {% assign filtered_notes = site.notes | where: "category", include.category | sort: "period" | reverse %}
