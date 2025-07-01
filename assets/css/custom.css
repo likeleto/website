@@ -99,6 +99,32 @@ h1 {
   background-image: url('data:image/svg+xml;utf8,%3Csvg%20width=%2210%22%20height=%2210%22%20viewBox=%220%200%2024%2024%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M5%2019L19%205M5%205h14v14%22%20stroke=%22%23E7EDE3%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E');
 }
 
+/* Library Description Link Styles */
+.library-description a {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  transition: color 0.2s ease;
+}
+
+.library-description a:hover {
+  color: var(--title);
+  text-decoration-thickness: 2px;
+}
+
+.library-description .wiki-link {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.library-description .wiki-link:hover {
+  border-bottom-color: var(--text);
+  color: var(--title);
+}
+
 /* Generic List Page Styles */
 .list-items {
   list-style: none;
@@ -256,9 +282,83 @@ h1 {
   white-space: nowrap;
 }
 
-/* Fix external link icon positioning for project titles */
-.project-title a[href^="http://"]:after, 
-.project-title a[href^="https://"]:after {
+/* Library Item Styles - Matching project layout exactly */
+.library-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-md);
+  padding-bottom: var(--space-md);
+  margin-bottom: var(--space-md);
+  border-bottom: 1px solid var(--border);
+}
+
+.library-item:last-child {
+  border-bottom: none;
+}
+
+.library-content {
+  flex: 1;
+}
+
+.library-title {
+  margin: 0 0 var(--space-sm) 0;
+  color: var(--title);
+}
+
+.library-title a {
+  color: var(--title);
+  text-decoration: none;
+}
+
+.library-title a:hover {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+.library-description {
+  margin: 0;
+  color: var(--text);
+  font-size: var(--scale-sm);
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+.library-description p {
+  margin: 0;
+  display: inline;
+}
+
+.library-description p:not(:last-child)::after {
+  content: " ";
+}
+
+.library-date {
+  color: var(--text);
+  font-size: var(--scale-xs);
+  opacity: 0.7;
+  font-style: normal;
+  margin-left: 0;
+  display: inline;
+}
+
+.library-type {
+  flex-shrink: 0;
+}
+
+.type-pill {
+  display: inline-block;
+  padding: 2px 6px;
+  color: var(--text);
+  font-size: var(--scale-xs);
+  opacity: 0.7;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+
+/* Fix external link icon positioning for library titles */
+.library-title a[href^="http://"]:after, 
+.library-title a[href^="https://"]:after {
   vertical-align: middle;
   margin-left: 0.25em;
   width: 10px;
@@ -273,6 +373,16 @@ h1 {
   }
   
   .project-period {
+    align-self: flex-start;
+  }
+  
+  .library-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-sm);
+  }
+  
+  .library-type {
     align-self: flex-start;
   }
 }
@@ -291,4 +401,121 @@ h1 {
 /* Underline on hover for notes list only (not projects) */
 .notelist-feed:not(.project-item) a:hover {
   text-decoration: underline;
+}
+
+/* Library Filter Styles */
+.library-filter {
+  margin: var(--space-lg) 0 var(--space-md) 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+}
+
+.filter-label {
+  color: var(--text);
+  font-size: var(--scale-sm);
+  font-weight: var(--weight-medium);
+  opacity: 0.8;
+}
+
+.filter-dropdown {
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  background: var(--background);
+  color: var(--text);
+  font-size: var(--scale-sm);
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  min-width: 120px;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 16px;
+  padding-right: 32px;
+}
+
+.filter-dropdown:hover {
+  border-color: var(--title);
+}
+
+.filter-dropdown:focus {
+  outline: none;
+  border-color: var(--title);
+  box-shadow: 0 0 0 2px rgba(var(--title-rgb), 0.1);
+}
+
+@media (max-width: 768px) {
+  .filter-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-sm);
+  }
+  
+  .filter-dropdown {
+    align-self: flex-end;
+  }
+}
+
+/* Library Filter Badge Styles */
+.filter-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  justify-content: flex-end;
+  margin-bottom: var(--space-md);
+}
+
+.filter-badge {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 16px;
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+  font-size: var(--scale-xs);
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  outline: none;
+  text-transform: capitalize;
+}
+
+.filter-badge.active, .filter-badge:focus {
+  background: var(--bg2);
+  border-color: var(--title);
+}
+
+.filter-badge:hover {
+  background: var(--border);
+  color: var(--title);
+}
+
+@media (max-width: 768px) {
+  .filter-badges {
+    justify-content: flex-start;
+  }
+}
+
+/* Page Header with Description */
+.page-header {
+  margin-bottom: var(--space-xl);
+}
+
+.page-header h1 {
+  margin-bottom: var(--space-xs);
+}
+
+.page-header p {
+  margin: 0;
+  color: var(--text);
+  font-size: var(--scale-base);
+  line-height: 1.6;
+  opacity: 0.8;
 }

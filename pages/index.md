@@ -21,9 +21,9 @@ title: Jekyll Garden
     <h4>The Found</h4>
     <p>A visual archive of past work and sketches.</p>
   </a>
-  <a href="/things" class="card">
-    <h4>Things</h4>
-    <p>Books, bookmarks, films, travel, and internet scraps.</p>
+  <a href="/logs" class="card">
+    <h4>Books & Bookmarks</h4>
+    <p>Stuff I’ve read, watched, heard, or bookmarked lately.</p>
   </a>
   <a href="https://hiran.substack.com/" class="card">
     <h4>Newsletter</h4>

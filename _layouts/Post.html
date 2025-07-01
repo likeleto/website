@@ -118,7 +118,14 @@
             {%- endif -%}
 
             {%- unless page.permalink == "/" or page.permalink == "/notes" or page.permalink == "/blog" or page.content-type == "notes" or page.content-type == "post" or page.content-type == "static" -%}
-                <h1>{{page.title}}</h1>
+                {%- if page.description -%}
+                    <div class="page-header">
+                        <h1>{{page.title}}</h1>
+                        <p>{{page.description}}</p>
+                    </div>
+                {%- else -%}
+                    <h1>{{page.title}}</h1>
+                {%- endif -%}
                 {%- include Content.html -%}
             {%- endunless -%}
 

@@ -1,6 +1,8 @@
 <div class="feed-container">
 {% if include.category == "[[Projects]]" %}
     {% assign filtered_notes = site.notes | where: "category", include.category | sort: "period" | reverse %}
+{% elsif include.category == "[[Log]]" %}
+    {% assign filtered_notes = site.notes | where: "category", include.category | sort: "date" | reverse %}
 {% else %}
     {% assign filtered_notes = site.notes | where: "category", include.category | sort: "date" | reverse %}
 {% endif %}
@@ -8,6 +10,8 @@
     {%- if note.feed == "show" or include.show_all == true -%}
         {%- if include.category == "[[Projects]]" -%}
             {%- include ProjectItem.html note=note -%}
+        {%- elsif include.category == "[[Log]]" -%}
+            {%- include LibraryItem.html note=note -%}
         {%- else -%}
             {%- include NoteItem.html note=note -%}
         {%- endif -%}

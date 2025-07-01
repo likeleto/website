@@ -1,0 +1,30 @@
+<div class="notelist-feed library-item" data-type="{{ include.note.type | downcase }}">
+    <div class="library-content">
+        <p class="library-title">
+        {%- assign display_title = include.note.title -%}
+        {%- if include.note.local-title and include.note.local-title != "" -%}
+            {%- assign display_title = include.note.local-title -%}
+        {%- endif -%}
+        {%- if include.note.link and include.note.link != "" -%}
+            <a href="{{ include.note.link }}" target="_blank" rel="noopener">{{ display_title }}{%- if include.note.recommended == "yes" or include.note.recommended == true -%} ✦{%- endif -%}</a>
+        {%- else -%}
+            {{ display_title }}{%- if include.note.recommended == "yes" or include.note.recommended == true -%} ✦{%- endif -%}
+        {%- endif -%}
+        </p>
+        {%- assign content_stripped = include.note.content | strip_html | strip -%}
+        {%- if content_stripped != "" -%}
+            <div class="library-description">
+                {{ include.note.content }}
+                {%- if include.note.date -%}
+                    <span class="library-date">{{ include.note.date | date: "%d %b %Y" }}</span>
+                {%- endif -%}
+            </div>
+        {%- endif -%}
+    </div>
+    
+    {%- if include.note.type -%}
+        <div class="library-type">
+            <span class="type-pill">{{ include.note.type }}</span>
+        </div>
+    {%- endif -%}
+</div> 
