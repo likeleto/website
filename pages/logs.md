@@ -1,5 +1,5 @@
 ---
-title: Logs
+title: Books & Bookmarks
 layout: Post
 permalink: /logs
 description: A collection of stuff I've read, watched, heard, or bookmarked lately.
