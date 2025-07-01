@@ -762,3 +762,39 @@ img {
 .toc-list a[href^="http://"]:after, .toc-list a[href^="https://"]:after {
   display: none;
 }
+
+.wiki-link-preview {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  padding: var(--space-sm);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 320px;
+  font-size: var(--scale-base);
+  line-height: 1.4;
+  position: absolute;
+  z-index: 1000;
+  border-radius: 8px;
+  color: var(--text);
+  transition: opacity 0.2s, transform 0.2s;
+  pointer-events: none;
+}
+
+[data-theme="dark"] .wiki-link-preview {
+  background: var(--bg2);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.wiki-link-preview .preview-content strong {
+  color: var(--title);
+  display: block;
+  margin-bottom: var(--space-xs);
+}
+
+.wiki-link-preview .preview-content p {
+  color: var(--text);
+  margin: 0;
+  opacity: 0.8;
+  font-size: 0.95em;
+  line-height: 1.4;
+}
