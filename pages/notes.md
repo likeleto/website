@@ -1,7 +1,8 @@
 ---
-title: Notes
+title: Working Notes
 layout: Post
 permalink: /notes
+description: Explore my Digital Garden of evolving notes on diverse categorys, waiting to bloom over time.
 ---
 
-Browse all published notes in your digital garden. Notes are organized by connections, not chronology. Click any note to explore its links and context.
+{% include CategoryFeed.html category="[[Notes]]" show_all=true %}

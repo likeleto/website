@@ -34,6 +34,7 @@
     {%- else -%}
     <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet" media="all" class="default" />
     {%- endif -%}
+    <link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet" media="all" class="default" />
     {%- if site.katex -%}
     <link href="{{ site.baseurl }}/assets/css/vendor/Katex.css" rel="stylesheet" media="all" class="default" />
     {%- endif -%}
@@ -45,8 +46,8 @@
         <link href="{{ site.baseurl }}/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
         {%- endif -%}
     <![endif]-->
-    <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
+    <script src="{{ site.baseurl }}/assets/js/wiki-links.js" defer></script>
 </head>
 
 <body>
@@ -54,13 +55,10 @@
         <div>
             {%- include Nav.html -%}
             
-            <!-- Homepage Layout-->
             {%- if page.permalink == "/" -%}
                 {%- if site.preferences.homepage.enabled -%}
-                    <!--- Show content from index.md when homepage is enabled -->
                     {%- include Content.html -%}
                 {%- else -%}
-                    <!--- Show content from notes.md + search + feed when homepage is disabled -->
                     <h1>{{page.title}}</h1>
                     {%- include Content.html -%}
                     {%- include Search.html -%}
@@ -68,16 +66,23 @@
                 {%- endif -%}
             {%- endif -%}
 
-            <!--- Notes Feed Layout-->
             {%- if page.permalink == "/notes" -%}
                 <h1>{{page.title}}</h1>
                 {%- include Content.html -%}
                 {%- include Search.html -%}
-                {%- include Feed.html -%}
             {%- endif -%}
 
-            <!--- Notes Layout-->
             {%- if page.content-type == "notes" -%}
+                {% assign cat = page.category | default: '[Notes]' %}
+                {% assign cat_slug = cat | remove: '[' | remove: ']' | downcase | strip %}
+                {% if cat_slug == '' %}
+                  {% assign back_url = '/notes' %}
+                {% else %}
+                  {% assign back_url = '/' | append: cat_slug %}
+                {% endif %}
+                <div class="back-button-container">
+                  <a class="back-button" href="{{ site.baseurl }}{{ back_url }}">&larr; Back</a>
+                </div>
                 <h1>{{page.title}}</h1>
                 {%- include Content.html -%}
                 {%- if site.preferences.backlinks.enabled -%}
@@ -85,7 +90,6 @@
                 {%- endif -%}
             {%- endif -%}
 
-             <!--- Post Layout-->
              {%- if page.content-type == "post"  -%}
                  <h1>{{page.title}}</h1>
                  {%- include Content.html -%}
@@ -94,15 +98,13 @@
                  {%- endif -%}
              {%- endif -%}
 
-            <!--- Static Page Layout-->
             {%- if page.content-type == "static" -%}
                 <h1>{{page.title}}</h1>                        
                 {%- include Content.html -%}
             {%- endif -%}
             
-            <!--- Blog Feed Layout-->
             {%- if page.permalink == "/blog" -%}
-                <div class="related-wrapper">
+                <div class="feed-container">
                 {% assign post_items = site.posts | sort: "date" | reverse %}
                 {% for post_items in post_items %}
                     {%- if post_items.feed == "show" -%}
@@ -115,6 +117,18 @@
                 {%- endfor -%}
                 </div>
             {%- endif -%}
+
+            {%- unless page.permalink == "/" or page.permalink == "/notes" or page.permalink == "/blog" or page.content-type == "notes" or page.content-type == "post" or page.content-type == "static" -%}
+                {%- if page.description -%}
+                    <div class="page-header">
+                        <h1>{{page.title}}</h1>
+                        <p>{{page.description}}</p>
+                    </div>
+                {%- else -%}
+                    <h1>{{page.title}}</h1>
+                {%- endif -%}
+                {%- include Content.html -%}
+            {%- endunless -%}
 
             {%- include Footer.html -%}
         </div>

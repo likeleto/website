@@ -24,9 +24,9 @@
 # Preferences (controls template behavior)
 preferences:
   homepage:
-    enabled: false
-  search:
     enabled: true
+  search:
+    enabled: false
   backlinks:
     enabled: true
   pagepreview:
@@ -35,10 +35,10 @@ preferences:
     enabled: true
 
 # Site Configuration
-title: "Your Site Title"
-heading: "Your Name"
-description: "A brief description of your site"
-url: "https://yoursite.com"
+title: "Hiran Venugopalan"
+heading: "Product Designer"
+description: "Personal Website and Digital Garden of Hiran Venugopalan"
+url: "https://hiran.in"
 baseurl: ""
 
 # Asset Configuration
@@ -57,17 +57,16 @@ menu:
 
 # Footer
 footer:
-  copyright: "© 2024 Your Name. Contents under CC-BY-NC"
+  copyright:
   credits:
     enabled: true
-    url: "/credits"
-    text: "Credits"
+    url: "/colophon"
+    text: "Colophon"
 
 # Collections
 collections:
   notes:
     output: true
-    permalink: /:collection/:name
 
 # Defaults
 defaults:
@@ -78,6 +77,22 @@ defaults:
       layout: "Post"
       content-type: "notes"
       feed: "show"
+      permalink: /note/:name
+  - scope:
+      path: "_notes/Projects"
+      type: "notes"
+    values:
+      permalink: /project/:name
+  - scope:
+      path: "_notes/Logs"
+      type: "notes"
+    values:
+      permalink: /log/:name
+  - scope:
+      path: "_notes/20 Logs"
+      type: "notes"
+    values:
+      permalink: /log/:name
   - scope:
       path: ""
       type: "posts"
@@ -102,10 +117,17 @@ katex: true
 
 # Exclude from processing
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+- _notes/00 Inbox
+- _notes/20 Logs
+- _notes/80 Topics
+- _notes/90 Private
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
