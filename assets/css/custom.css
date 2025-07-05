@@ -287,9 +287,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: var(--space-md);
-  padding-bottom: var(--space-md);
-  margin-bottom: var(--space-md);
+  padding: var(--space-md) 0;
   border-bottom: 1px solid var(--border);
 }
 
@@ -301,17 +299,26 @@ h1 {
   flex: 1;
 }
 
-.library-title {
-  margin: 0 0 var(--space-sm) 0;
-  color: var(--title);
+.library-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.library-title a {
+.library-title-text {
+  color: var(--title);
+  font-size: var(--scale-base);
+  font-weight: var(--weight-medium);
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.library-title-text a {
   color: var(--title);
   text-decoration: none;
 }
 
-.library-title a:hover {
+.library-title-text a:hover {
   color: var(--text);
   text-decoration: underline;
 }
@@ -342,10 +349,6 @@ h1 {
   display: inline;
 }
 
-.library-type {
-  flex-shrink: 0;
-}
-
 .type-pill {
   display: inline-block;
   padding: 2px 6px;
@@ -354,6 +357,11 @@ h1 {
   opacity: 0.7;
   white-space: nowrap;
   text-transform: capitalize;
+  border: 1px solid var(--bg2);
+  border-radius: 2em;
+  margin-left: 1em;
+  margin-right: 0;
+  flex-shrink: 0;
 }
 
 /* Fix external link icon positioning for library titles */
@@ -380,10 +388,6 @@ h1 {
     flex-direction: column;
     align-items: flex-start;
     gap: var(--space-sm);
-  }
-  
-  .library-type {
-    align-self: flex-start;
   }
 }
 

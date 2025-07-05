@@ -5,7 +5,7 @@ title: Jekyll Garden
 ---
 <p>
   <strong>Hiran Venugopalan</strong><br>
-  Product and type designer with 14 years of building and leading design teams. Currently shaping product experiences at  <a href="https://www.kaleyra.com/">Kaleyra</a>. Builder and collaborator on tools, systems, and ideas. Mentor to designers and product folks. Also, Barback at <a href="https://www.instagram.com/dec.bakehouse/">December</a>, and occasional host of coffee workshops. <span class="small-link"><a href="/about">more</a></span>
+  Product and type designer with 14 years of building and leading design teams. Currently shaping product experiences at  <a href="https://www.kaleyra.com/">Kaleyra</a>. Builder and collaborator on tools, systems, and ideas. Mentor to designers and product folks. Also, Barback at <a href="https://www.instagram.com/moonbowl.in/">Moonbowl</a>, and occasional host of coffee workshops. <span class="small-link"><a href="/about">more</a></span>
 </p>
 
 <div class="card-grid">
