@@ -11,17 +11,16 @@ Content is written and organized in [Obsidian](https://obsidian.md/), a note-tak
 ---
 
 ## Acknowledgements
+Big thanks to everyone who helped me along the way:
+- [Anivar Aravind](https://twitter.com/anivar) got me started by setting up hiran.in back in 2008.
+- [Santosh Thottingal](https://docs.thottingal.in/) introduced me to digital gardens, which inspired this site.
+- [Hrishikesh Bhaskaran](https://stultus.in/)encouraged me to try static site generators and GitHub Pages.
+- [Anish Sheela](https://github.com/anishsheela) helped with hosting and showed me the basics of JavaScript.
+- [Ershad K](https://github.com/ershad) guided me through Jekyll and Ruby.
+- [Asim K T](https://www.ktasim.com/) designed the first HTML version and taught me CSS Flexbox and Grid.
+- [Binny V A](https://notes.binnyva.com/) A has been a constant collaborator in my digital garden experiments.
+- [Abhinav K E](https://abhinav-k-e.github.io/) helped build the frontend in 2024.
 
-- [Anivar Aravind](https://twitter.com/anivar) bought and set up **hiran.in** for me back in 2008.  
-- [Santosh Thottingal](https://docs.thottingal.in/) introduced me to the digital garden concept and to [Nikita’s Wiki](https://wiki.nikiv.dev/), which influenced this site.  
-- [Hrishikesh Bhaskaran](https://stultus.in/) nudged me toward static site generators and GitHub Pages.  
-- [Anish Sheela](https://github.com/anishsheela) helped with hosting and introduced me to JavaScript.  
-- [Ershad K](https://github.com/ershad) guided me through Jekyll and Ruby basics.  
-- [Asim K T](https://www.ktasim.com/) designed the first HTML version and helped me learn CSS Flexbox and Grid.  
-- [Binny V A](https://notes.binnyva.com/) has been a collaborator and co-experimenter in digital gardening.  
-- [Abhinav K E](https://abhinav-k-e.github.io/) helped build the frontend code in 2024.
-
----
 
 ## Inspirations
 - The minimal homepage was inspired by [Paco](https://paco.me/).

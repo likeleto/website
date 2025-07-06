@@ -687,7 +687,7 @@ td {
   }
   
   .container > div {
-    padding: 0 var(--space-sm) var(--space-sm);
+    padding: 0 var(--space-md);
   }
   
   .btn {
@@ -708,7 +708,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--space-md);
-  margin: var(--space-xl) 0;
+  margin-bottom: var(--space-xl) ;
 }
 
 .card {
@@ -756,6 +756,10 @@ img {
   .card-grid {
     grid-template-columns: 1fr;
   }
+  .card {
+    padding: var(--space-md) 0;
+  }
+
 }
 
 /* Hide external link icon from ToC links */

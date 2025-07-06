@@ -46,5 +46,5 @@ title: Jekyll Garden
 
 <h3>Collaborate</h3>
 <p>
-Always happy to <a href="/contact">connect</a> with people - whether you're working on something new, figuring out your next step, or just want to swap notes over coffee. I mentor early-stage designers, jam with builders, and enjoy slow conversations about how we work and learn. <span class="small-link"><a href="/contact">hiran.v@gmail.com</a></span>
+I mentor designers, jam with builders, and enjoy slow conversations about how we work and learn. If you're exploring something new, navigating a transition, or just up for a thoughtful chat — always happy to <a href="/contact">connect</a>. <span class="small-link"><a href="/contact">hiran.v@gmail.com</a></span>
 </p>
