@@ -2,13 +2,16 @@ document.addEventListener('DOMContentLoaded', function() {
     const badgeContainer = document.getElementById('typeBadges');
     const libraryItems = document.querySelectorAll('.library-item');
 
-    // Collect all unique types from library items
-    const types = new Set();
+    // Collect all unique types from library items and count them
+    const typeCounts = {};
     libraryItems.forEach(item => {
         const itemType = item.getAttribute('data-type');
-        if (itemType) types.add(itemType);
+        if (itemType) {
+            typeCounts[itemType] = (typeCounts[itemType] || 0) + 1;
+        }
     });
-    const sortedTypes = Array.from(types).sort();
+    
+    const sortedTypes = Object.keys(typeCounts).sort();
     const options = ['all', ...sortedTypes];
 
     // Generate badges
@@ -18,7 +21,17 @@ document.addEventListener('DOMContentLoaded', function() {
         badge.className = 'filter-badge' + (type === 'all' ? ' active' : '');
         badge.setAttribute('data-type', type);
         badge.type = 'button';
-        badge.textContent = type.charAt(0).toUpperCase() + type.slice(1);
+        
+        // Set badge text with count
+        if (type === 'all') {
+            const totalCount = libraryItems.length;
+            badge.innerHTML = `All <span class="library-date">${totalCount}</span>`;
+        } else {
+            const count = typeCounts[type];
+            const typeLabel = type.charAt(0).toUpperCase() + type.slice(1);
+            badge.innerHTML = `${typeLabel} <span class="library-date">${count}</span>`;
+        }
+        
         badgeContainer.appendChild(badge);
     });
 
