@@ -9,5 +9,5 @@ Use note-taking to develop ideas, arguments, and discussions, not to *collect* i
 
 ---
 ### Source
-- [[How to Take Smart Notes]]
+- [[20 Library/How to Take Smart Notes]]
 - [Evergreen Notes by Andy Matuschak](https://notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C) 

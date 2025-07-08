@@ -84,12 +84,7 @@ defaults:
     values:
       permalink: /project/:name
   - scope:
-      path: "_notes/Logs"
-      type: "notes"
-    values:
-      permalink: /log/:name
-  - scope:
-      path: "_notes/20 Logs"
+      path: "_notes/Library"
       type: "notes"
     values:
       permalink: /log/:name
@@ -117,9 +112,6 @@ katex: true
 
 # Exclude from processing
 exclude:
-- _notes/00 Inbox
-- _notes/20 Logs
-- _notes/80 Topics
 - _notes/90 Private
 #   - .sass-cache/
 #   - .jekyll-cache/

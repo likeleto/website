@@ -6,7 +6,7 @@ category: "[[Notes]]"
 
 > It’s better to be selective and read fewer, better articles than to be indiscriminate and read *[zilch](https://www.merriam-webster.com/dictionary/zilch)*. You need a strong filter, as the source of information is increasing in daily basis.
 
-PS: Reading the same authors on the same categorys builds a Confirmation bias. **Break such formats.**[[Slam it shut and move on]].
+PS: Reading the same authors on the same categorys builds a Confirmation bias. **Break such formats.**[[Slam it Shut and move on]].
 
 It’s better to be selective and read fewer, better articles than to be indiscriminate and read *[zilch](https://www.merriam-webster.com/dictionary/zilch)*. You need a strong filter, as the source of information is increasing in daily basis.
 

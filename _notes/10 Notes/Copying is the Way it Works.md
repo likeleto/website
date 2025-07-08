@@ -8,4 +8,4 @@ No idea is truly original. All creative work builds on what came before. Study t
 --- 
 ### Source
 -  [Matthew Strom](https://matthewstrom.com/writing/copying/)
-- [[Steal Like an Artist]]
+- [[20 Library/Steal Like an Artist]]

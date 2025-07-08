@@ -17,9 +17,9 @@ title: Jekyll Garden
     <h4>Projects</h4>
     <p>Things I've built, tried, or still tinkering with.</p>
   </a>
-  <a href="https://found.hiran.in" class="card">
-    <h4>The Found</h4>
-    <p>A visual archive of past work and sketches.</p>
+  <a href="https://made.hiran.in" class="card">
+    <h4>Made_</h4>
+    <p>Archive of my old works. No stories, just visuals.</p>
   </a>
   <a href="/logs" class="card">
     <h4>Books & Bookmarks</h4>

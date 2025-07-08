@@ -8,7 +8,7 @@ Stop seeing books or any source of knowledge as a measurement of success. Quanti
 You don't have to consume 'full' content. You can skip. Some contents are not made for you,(or for anyone). 
 > "Slam it shut and move on. Lots of fish in the sea."
 
-[[Lots of inputs and a strong filter]]
+[[10 Notes/Lots of inputs and a strong filter]]
 
 ---
 ### Source

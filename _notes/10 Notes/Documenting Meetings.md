@@ -23,7 +23,7 @@ File : 10-Feb-2023.md
 
 ```
 
-- [[10 Notes/Design Decision Log]]
+- [[Design Decision Log]]
 - [[Changelog as a consistent communication tool]]
 
 ---

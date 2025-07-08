@@ -8,4 +8,4 @@ In Note-taking, [[Making notes is the easiest part]], especially one with a focu
 
 ---
 ### Source
-- [[How to Take Smart Notes]]
+- [[20 Library/How to Take Smart Notes]]

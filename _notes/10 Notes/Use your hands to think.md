@@ -11,4 +11,4 @@ In my creative process, I often gravitate towards physical, hands-on methods wit
 
 --- 
 ## Source
-- [[Steal Like an Artist]]
+- [[20 Library/Steal Like an Artist]]

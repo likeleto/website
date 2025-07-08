@@ -111,22 +111,8 @@ module Jekyll
     end
 
     def find_best_match(link_text, all_items)
-      # First try exact case-insensitive match
-      exact_match = all_items.find { |item| item[:title].downcase == link_text.downcase }
-      return exact_match if exact_match
-      
-      # Then try partial matches (for more flexible linking)
-      partial_matches = all_items.select { |item| 
-        item[:title].downcase.include?(link_text.downcase) || 
-        link_text.downcase.include?(item[:title].downcase)
-      }
-      
-      # Return the best partial match (shortest title that contains the link text)
-      if partial_matches.any?
-        partial_matches.min_by { |item| item[:title].length }
-      else
-        nil
-      end
+      # Only allow exact case-insensitive match
+      all_items.find { |item| item[:title].downcase == link_text.downcase }
     end
 
     def generate_excerpt(content)
