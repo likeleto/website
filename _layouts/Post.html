@@ -47,6 +47,7 @@
         {%- endif -%}
     <![endif]-->
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
+    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/notes-feed.xml" title="Notes Feed">
     <script src="{{ site.baseurl }}/assets/js/wiki-links.js" defer></script>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1CR53QKVHD"></script>
@@ -142,5 +143,21 @@
             {%- include Footer.html -%}
         </div>
     </div>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var links = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+      links.forEach(function(link) {
+        var href = link.getAttribute('href');
+        // Only modify if not internal (hiran.in) and not an anchor
+        if (!href.match(/^https?:\/\/(www\.)?hiran\.in(\/|$)/) && !href.startsWith('#')) {
+          if (href.indexOf('?') === -1) {
+            link.setAttribute('href', href + '?ref=hiran.in');
+          } else if (!href.match(/[?&]ref=hiran\.in/)) {
+            link.setAttribute('href', href + '&ref=hiran.in');
+          }
+        }
+      });
+    });
+    </script>
 </body>
 </html> 

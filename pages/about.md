@@ -22,3 +22,7 @@ Over the years, I’ve spent time mentoring designers and early product folks �
 Outside of work, I help out at [Moonbowl](https://www.instagram.com/moonbowl.in/), a cloud kitchen run by my partner. On busy days, I turn into the barback, the packer - whatever keeps the day running. I also enjoy manual coffee brewing and run occasional workshops for people who want to explore it.
 
 I also read, watch films, and travel — always as a tourist, even in the cities I’ve lived in for years.
+
+### Personal Branding 
+The logo is made of two mirrored ഹ character, the first letter of my name in Malayalam.
+Together, they form an H - a simple bridge between scripts and identities.

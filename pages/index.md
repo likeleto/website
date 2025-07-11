@@ -1,7 +1,7 @@
 ---
 layout: Post
 permalink: /
-title: Jekyll Garden
+title: Hiran Venugopalan
 ---
 <p>
   <strong>Hiran Venugopalan</strong><br>
@@ -14,8 +14,8 @@ title: Jekyll Garden
     <p>Ongoing thoughts on design, systems, and internet patterns.</p>
   </a>
   <a href="/projects" class="card">
-    <h4>Projects</h4>
-    <p>Things I've built, tried, or still tinkering with.</p>
+    <h4>Playground</h4>
+    <p>Small projects for curious ideas and odd ends.</p>
   </a>
   <a href="https://made.hiran.in" class="card">
     <h4>Made_</h4>

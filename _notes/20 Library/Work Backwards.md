@@ -4,7 +4,7 @@ category: "[[Log]]"
 link: https://jamiemill.com/blog/work-backwards/
 date: 2021-03-19
 type: articles
-recommended: yes
+recommended: true
 local-title:
 ---
 A clean system of thinking. A simple note on how to build things right to left. 
