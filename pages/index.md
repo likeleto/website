@@ -46,5 +46,5 @@ title: Hiran Venugopalan
 
 <h3>Collaborate</h3>
 <p>
-I mentor designers, jam with builders, and enjoy slow conversations about how we work and learn. If you're exploring something new, navigating a transition, or just up for a thoughtful chat — always happy to <a href="/contact">connect</a>. <span class="small-link"><a href="/contact">hiran.v@gmail.com</a></span>
+I mentor designers, jam with builders, and enjoy conversations where I listen to how others build, learn, and stay motivated. I help with product thinking, design process, and strategy. I also run focused workshops and offer design feedback when useful. You can reach out through <a href="https://topmate.io/hiran">Topmate</a> or <a href="https://adplist.org/mentors/hiran-venugopalan">ADPList</a>. If you’re in Bangalore, I’d be glad to meet in person. <span class="small-link"><a href="/contact">hiran.v@gmail.com</a></span>
 </p>
