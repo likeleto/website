@@ -4,25 +4,18 @@ permalink: /about
 title: About Hiran Venugopalan
 content -type: static
 ---
-I’m a designer working on platform experience at [Kaleyra](https://www.kaleyra.com/). Most of my work sits somewhere between how things are built, how they’re used, and how everything fits together.
+
+I've been working in design since 2010, leading teams and building products at the intersection of design, technology, and community. This year, I co-founded [UXFOSS](https://hiran.in/uxfoss), a community for people working on user experience in free and open source software.
+
+My path into design started with curiosity about free software and early internet communities. That led me to [Swathanthra Malayalam Computing](https://smc.org.in/), where I helped revamp the community and eventually designed [Dyuthi](https://smc.org.in/fonts/#dyuthi), one of the first fully-featured ornamental Unicode Malayalam typefaces. Later, I released [Rufscript](https://fontlibrary.org/en/font/rufscript), a Latin display typeface.
 
 ![Hiran Venugopalan, 2020](/assets/img/hiran-2020-asif.png)
 
-I’ve been doing design work since 2010 - fifteen years of sketching, shipping, messing up, fixing, and figuring things out again. Before Kaleyra, I worked on civic tech platforms, publishing tools, and communication products - across teams that were just starting up, and others figuring out scale.
+I co-founded Saltmangotree, one of India's early digital marketing studios, where I led design and technology until it was acquired by a French company. The name comes from [a line in a Malayalam movie](https://www.youtube.com/watch?v=GsU5-kndYHw)—a small inside joke that stuck around longer than we expected. Since then, I've worked across different contexts—leading and managing teams, building communication products, publishing tools, and civic tech platforms.
 
-A while ago, I co-founded Saltmangotree, one of the early digital marketing studios in India. I led design and tech there and stayed on until it was acquired by a French company. Yes, we named it after a line from an Malayalam movie — an inside joke that stuck.
+Over the years, I've worked on projects like [Malayaleegraphy](https://facebook.com/malayaleegraphy), [Chali Machine](https://behance.net/gallery/40300789/the-chali-machine), and [Kerala Designer Co.](https://www.instagram.com/kdco_official/) Most were experiments and collaborations, born from the urge to build something and see what happens.
 
-My path into all this started with curiosity around free software. That, combined with the early days of internet communities, led me to people asking similar questions. One thing led to another, and I found myself contributing to [Swathanthra Malayalam Computing](https://smc.org.in/) - a community building tools for Malayalam computing. I focused on type design and helped shape the group's direction from a community side. 
-In 2009, I designed [Dyuthi Unicode Malayalam font](https://smc.org.in/fonts/#dyuthi), a Unicode Malayalam display font during Google Summer of Code. It was one of the first in that category—built with full complexity. I later released [Rufscript](https://fontlibrary.org/en/font/rufscript), a Latin display typeface.
+For the past four years, I've been exploring home brewing—experimenting with methods, learning from what works and what doesn't, and occasionally hosting small sessions to share techniques and experiences with others. It's part of the same practice: try something, adjust, and see what emerges.
 
-I’ve also worked on side projects like [Malayaleegraphy](https://facebook.com/malayaleegraphy), [Chali Machine](https://behance.net/gallery/40300789/the-chali-machine), and [Kerala Designer Co.](https://www.instagram.com/kdco_official/). Some were experiments, some collaborations, most came out of the itch to build and see what happens.
-
-Over the years, I’ve spent time mentoring designers and early product folks — not just about tools or portfolios, but around the stuff that’s harder to Google. It usually comes from leading and managing design teams, and I try to adapt based on where someone is and what they’re trying to figure out. I enjoy these conversations - part advice, part collaboration, and often the start of something bigger.
-
-Outside of work, I help out at [Moonbowl](https://www.instagram.com/moonbowl.in/), a cloud kitchen run by my partner. On busy days, I turn into the barback, the packer - whatever keeps the day running. I also enjoy manual coffee brewing and run occasional workshops for people who want to explore it.
-
-I also read, watch films, and travel — always as a tourist, even in the cities I’ve lived in for years.
-
-### Personal Branding 
-The logo is made of two mirrored ഹ character, the first letter of my name in Malayalam.
-Together, they form an H - a simple bridge between scripts and identities.
+---
+*My logo is made from two mirrored ഹ characters, the first letter of my name in Malayalam. Together, they form an H—a simple bridge between scripts and identities.*

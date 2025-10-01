@@ -113,6 +113,7 @@ katex: true
 # Exclude from processing
 exclude:
 - _notes/90 Private
+- .last_build_time
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
@@ -123,3 +124,4 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+

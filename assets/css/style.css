@@ -305,6 +305,7 @@ a:hover {
 
 .footer {
   margin-top: calc(var(--space-xl) * 2);
+  margin-bottom: var(--space-xl);
   text-align: center;
   display: flex;
   align-items: center;

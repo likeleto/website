@@ -3,14 +3,12 @@
 /* Back Button Styles */
 .back-button-container {
   position: relative;
-  margin-bottom: var(--space-md);
 }
 
 .back-button {
   display: inline-flex;
   align-items: center;
   gap: var(--space-xs);
-  padding: var(--space-xs) var(--space-sm);
   color: var(--text);
   text-decoration: none;
   font-size: var(--scale-sm);
@@ -39,7 +37,7 @@
 
 /* H1 Margin */
 h1 {
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-lg);
 }
 
 /* Global External Link Icons */

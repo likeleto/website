@@ -5,7 +5,7 @@ title: Hiran Venugopalan
 ---
 <p>
   <strong>Hiran Venugopalan</strong><br>
-  Product and type designer with 14 years of building and leading design teams. Currently shaping product experiences at  <a href="https://www.kaleyra.com/">Kaleyra</a>. Builder and collaborator on tools, systems, and ideas. Mentor to designers and product folks. Also, Barback at <a href="https://www.instagram.com/moonbowl.in/">Moonbowl</a>, and occasional host of coffee workshops. <span class="small-link"><a href="/about">more</a></span>
+  Maker and product designer focused on tools, type, and systems. Home brewer and workshop host. Helping build and run UXFOSS, SMC, and KDCo. <span class="small-link"><a href="/about">more</a></span>
 </p>
 
 <div class="card-grid">
@@ -13,27 +13,18 @@ title: Hiran Venugopalan
     <h4>Working Notes</h4>
     <p>Ongoing thoughts on design, systems, and internet patterns.</p>
   </a>
-  <a href="/projects" class="card">
-    <h4>Playground</h4>
-    <p>Small projects for curious ideas and odd ends.</p>
-  </a>
-  <a href="https://made.hiran.in" class="card">
-    <h4>Made_</h4>
-    <p>Archive of my old works. No stories, just visuals.</p>
-  </a>
   <a href="/logs" class="card">
     <h4>Books & Bookmarks</h4>
     <p>Stuff I’ve read, watched, heard, or bookmarked lately.</p>
+  </a>
+  <a href="/projects" class="card">
+    <h4>Projects</h4>
+    <p>Small projects for curious ideas and odd ends.</p>
   </a>
   <a href="https://hiran.substack.com/" class="card">
     <h4>Newsletter</h4>
     <p>Every so often, a short note with a bit of <i>This&That.</i></p>
   </a>
-  <a href="/contact" class="card">
-    <h4>Coaching</h4>
-    <p>1:1 conversations for clarity, growth, and better work.</p>
-  </a>
-  
 </div>
 
 
@@ -44,7 +35,7 @@ title: Hiran Venugopalan
   {{ content_with_date | markdownify }}
 </div>
 
-<h3>Collaborate</h3>
+<h3>Connect</h3>
 <p>
-I mentor designers, jam with builders, and enjoy conversations where I listen to how others build, learn, and stay motivated. I help with product thinking, design process, and strategy. I also run focused workshops and offer design feedback when useful. You can reach out through <a href="https://topmate.io/hiran">Topmate</a> or <a href="https://adplist.org/mentors/hiran-venugopalan">ADPList</a>. If you’re in Bangalore, I’d be glad to meet in person. <span class="small-link"><a href="/contact">hiran.v@gmail.com</a></span>
+I enjoy conversations where I listen to how others build, learn, and stay motivated. Most Thursdays, I keep a slot at a café in Bangalore to <a href="https://cal.com/hfactor/hello">meet over coffee</a>, or we can connect virtually if that works better. <span class="small-link"><a href="/contact">hiran.v@gmail.com</a></span>
 </p>
