@@ -5,7 +5,7 @@ title: Hiran Venugopalan
 ---
 <p>
   <strong>Hiran Venugopalan</strong><br>
-  Maker and product designer focused on tools, type, and systems. Home brewer and workshop host. Helping build and run UXFOSS, SMC, and KDCo. <span class="small-link"><a href="/about">more</a></span>
+  Maker and product designer focused on tools, type, and systems. Design mentor for design thinking and design leadership. Home brewer. Coffee workshop host. <span class="small-link"><a href="/about">more</a></span>
 </p>
 
 <div class="card-grid">
