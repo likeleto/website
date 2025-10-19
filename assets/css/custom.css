@@ -228,7 +228,7 @@ h1 {
   align-items: flex-start;
   gap: var(--space-md);
   padding-bottom: var(--space-md);
-  margin-bottom: var(--space-md);
+  /*margin-bottom: var(--space-md);*/
   border-bottom: 1px solid var(--border);
 }
 

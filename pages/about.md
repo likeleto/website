@@ -1,21 +1,25 @@
 ---
 layout: Post
 permalink: /about
-title: About Hiran Venugopalan
+title: Кирилл Улитин
 content -type: static
 ---
 
-I've been working in design since 2010, leading teams and building products at the intersection of design, technology, and community. This year, I co-founded [UXFOSS](https://hiran.in/uxfoss), a community for people working on user experience in free and open source software.
+![Кирилл Улитин](/assets/img/hiran-2020-asif.png)
 
-My path into design started with curiosity about free software and early internet communities. That led me to [Swathanthra Malayalam Computing](https://smc.org.in/), where I helped revamp the community and eventually designed [Dyuthi](https://smc.org.in/fonts/#dyuthi), one of the first fully-featured ornamental Unicode Malayalam typefaces. Later, I released [Rufscript](https://fontlibrary.org/en/font/rufscript), a Latin display typeface.
+Кирилл Улитин руководит направлением UX и исследований в команде из 50 UX-дизайнеров в МойОфис. До этого был его UX-архитектором. Занимался качественными и количественными исследованими пользователей, стат. анализом событий и документов, проектированием интерфейсов.
 
-![Hiran Venugopalan, 2020](/assets/img/hiran-2020-asif.png)
+## ВШЭ майнор UX-дизайн
+С 2023 года ведет семинары на майноре UX-дизайн ВШЭ, где студенты совершенно разных направлений объединяются, чтобы изучать создание цифровых продуктов на основе реального продукта. 
 
-I co-founded Saltmangotree, one of India's early digital marketing studios, where I led design and technology until it was acquired by a French company. The name comes from [a line in a Malayalam movie](https://www.youtube.com/watch?v=GsU5-kndYHw)—a small inside joke that stuck around longer than we expected. Since then, I've worked across different contexts—leading and managing teams, building communication products, publishing tools, and civic tech platforms.
+## Школа цифровой доступности
+С 2021 года с командой курса цифровой доступности, ведет лекцию по проблемам доступности цвета в пользовательских интерфейсах. 
 
-Over the years, I've worked on projects like [Malayaleegraphy](https://facebook.com/malayaleegraphy), [Chali Machine](https://behance.net/gallery/40300789/the-chali-machine), and [Kerala Designer Co.](https://www.instagram.com/kdco_official/) Most were experiments and collaborations, born from the urge to build something and see what happens.
+## Автор статей, ведущий мастер-классов и воркшопов, участник програмных комитетов
+Автор статей, в том числе в рецензируемых журналах. Входит в програмvнвый комитет конференции-выставки ResearchExpo, а до этого конференции ProfsoUX. Автор и ведущий мастер-классов:
+- "Fun with JTBD"
+- "How to find and read HCI papers"
+- "How to use Python to gather and analyse user feedback"
 
-For the past four years, I've been exploring home brewing—experimenting with methods, learning from what works and what doesn't, and occasionally hosting small sessions to share techniques and experiences with others. It's part of the same practice: try something, adjust, and see what emerges.
-
----
-*My logo is made from two mirrored ഹ characters, the first letter of my name in Malayalam. Together, they form an H—a simple bridge between scripts and identities.*
+## До этого
+5 лет в компании Biarum был главным по дизайну. Участвовал в проектах для медицины: радиология, генетика, системы управления знаниями и лабораториями. Организовывал и наставлял отдел дизайна из 2х дизайнеров. Был дизайнером продукта Powerlineage - автоматизации сбора семейных диаграмм для генетиков-консультантов его white-label версии для генетической лаборатории Invitae, которая в итоге поглотила Powerlineage.

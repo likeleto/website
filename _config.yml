@@ -35,10 +35,10 @@ preferences:
     enabled: true
 
 # Site Configuration
-title: "Hiran Venugopalan"
-heading: "Hiran Venugopalan - Product Designer"
-description: "Personal Website and Digital Garden of Hiran Venugopalan"
-url: "https://hiran.in"
+title: "Кирилл Улитин"
+heading: "Кирилл Улитин - UX, Design, Research"
+description: "Личный сайт и цифровой сад Кирилла Улитина"
+url: "https://ulitin.ru"
 baseurl: ""
 
 # Asset Configuration
@@ -48,11 +48,11 @@ ie_css: "/assets/css/ie-target.css"
 
 # Menu Items
 menu:
-  - title: "Notes"
+  - title: "Заметки"
     url: "/notes"
-  - title: "Blog"
+  - title: "Блог"
     url: "/blog"
-  - title: "About"
+  - title: "Обо мне"
     url: "/about"
 
 # Footer
@@ -60,42 +60,32 @@ footer:
   copyright:
   credits:
     enabled: true
-    url: "/colophon"
-    text: "Colophon"
+    url: "/credits"
+    text: "Credits"
 
 # Collections
 collections:
-  notes:
-    output: true
+    notes:
+      output: true
+      permalink: /:categories/:title
+
 
 # Defaults
 defaults:
   - scope:
       path: ""
-      type: "notes"
+      type: posts
     values:
-      layout: "Post"
-      content-type: "notes"
-      feed: "show"
-      permalink: /note/:name
-  - scope:
-      path: "_notes/Projects"
-      type: "notes"
-    values:
-      permalink: /project/:name
-  - scope:
-      path: "_notes/Library"
-      type: "notes"
-    values:
-      permalink: /log/:name
+      layout: Post
+      permalink: /post/:title
+      content-type: post
   - scope:
       path: ""
-      type: "posts"
+      type: notes
     values:
-      layout: "Post"
-      content-type: "post"
-      feed: "show"
-      permalink: /blog/:title/
+      layout: Post
+      permalink: /:categories/:title
+      content-type: notes    
 
 # Plugins
 plugins:
