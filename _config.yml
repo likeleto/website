@@ -39,7 +39,7 @@ title: "Кирилл Улитин"
 heading: "Кирилл Улитин - UX, Design, Research"
 description: "Личный сайт и цифровой сад Кирилла Улитина"
 url: "https://ulitin.ru"
-baseurl: ""
+baseurl: "/"
 
 # Asset Configuration
 apple_touch_icon: "/assets/img/profile.png"
