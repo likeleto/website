@@ -12,7 +12,7 @@ title: Кирилл Улитин
 </p>
 
 <div class="card-grid">
-  <a href="https://hh.ru/resume/a1752ceeff05de65e40039ed1f303078576175" class="card">
+  <a href="/CV_Ulitin_Kirill_Head_UX_Research.pdf" class="card">
     <h4>Резюме</h4>
     <p></p>
   </a>
