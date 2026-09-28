@@ -7,15 +7,28 @@ title: Кирилл Улитин
   <strong>Кирилл Улитин</strong><br>
   15+ лет в UX, исследованиях и дизайне цифровых продуктов.<br/>ex-руководитель направления UX & Research в МойОфис: выстроил исследования и анализ в команде из 50 дизайнеров.<br/>Глава программного комитета ResearchExpo, приглашённый преподаватель ВШЭ.
 <br/><br/>
-Открыт к ролям уровня Head / Lead / Principal в UX, исследованиях и дизайне. Интересны сложные B2B/B2C продукты, инструменты, AI.
 <span class="small-link"><a href="/about">подробнее</a></span>
+</p>
+
+<p><strong>Открыт к предложениям - Резюме</strong><br>
+    Открыт к ролям уровня Head / Lead / Principal в UX, исследованиях и дизайне. Интересны сложные B2B/B2C продукты, инструменты, AI.
 </p>
 
 <div class="card-grid">
   <a href="/CV_Ulitin_Kirill_Head_UX_Research.pdf" class="card">
-    <h4>Резюме</h4>
-    <p></p>
+    <h4>Head of UX & Research</h4>
+    <p>Строю и масштабирую функцию исследований. Команда, стратегия, процессы, метрики. Смотреть...</p>
   </a>
+
+    <a href="/CV_Ulitin_Kirill_Principal_Researcher.pdf" class="card">
+    <h4>Principal Researcher</h4>
+    <p>Углубляю методологию, влияю через данные. 400+ исследований, 70 лично. ИИ, кач/колич, аналитка Смотреть...</p>
+  </a>
+
+</div>
+
+<div class="card-grid">
+
   <a href="https://t.me/ulitin_ru" class="card">
     <h4>Телеграм-блог</h4>
     <p>Веду Telegram-блог с заметками про AI, Product, UX, Research. Публикую записи клуба FWR</p>
