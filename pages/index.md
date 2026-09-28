@@ -6,14 +6,13 @@ title: Кирилл Улитин
 <p>
   <strong>Кирилл Улитин</strong><br>
   15+ лет в UX, исследованиях и дизайне цифровых продуктов.<br/>ex-руководитель направления UX & Research в МойОфис: выстроил исследования и анализ в команде из 50 дизайнеров.<br/>Глава программного комитета ResearchExpo, приглашённый преподаватель ВШЭ.
-<br/><br/>
 <span class="small-link"><a href="/about">подробнее</a></span>
 </p>
 
-<p><strong>Открыт к предложениям - Резюме</strong><br>
+<h3>Открыт к предложениям</h3>
+<p>
     Открыт к ролям уровня Head / Lead / Principal в UX, исследованиях и дизайне. Интересны сложные B2B/B2C продукты, инструменты, AI.
 </p>
-
 <div class="card-grid">
   <a href="/CV_Ulitin_Kirill_Head_UX_Research.pdf" class="card">
     <h4>Head of UX & Research</h4>
@@ -25,6 +24,13 @@ title: Кирилл Улитин
     <p>Углубляю методологию, влияю через данные. 400+ исследований, 70 лично. ИИ, кач/колич, аналитка Смотреть...</p>
   </a>
 
+</div>
+
+<h3>Текущий статус</h3>
+<div>
+  {% assign now_page = site.pages | where: "permalink", "/now" | first %}
+  {% capture content_with_date %}{{ now_page.content }} <span class="small-link"><a href="/now">{{ now_page.date | date: "%d %b %Y" }}</a></span>{% endcapture %}
+  {{ content_with_date | markdownify }}
 </div>
 
 <div class="card-grid">
@@ -54,10 +60,5 @@ title: Кирилл Улитин
 </div>
 
 
-<h3>Текущий статус</h3>
-<div>
-  {% assign now_page = site.pages | where: "permalink", "/now" | first %}
-  {% capture content_with_date %}{{ now_page.content }} <span class="small-link"><a href="/now">{{ now_page.date | date: "%d %b %Y" }}</a></span>{% endcapture %}
-  {{ content_with_date | markdownify }}
-</div>
+
 
