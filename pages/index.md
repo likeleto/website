@@ -34,11 +34,6 @@ title: Кирилл Улитин
 </div>
 
 <div class="card-grid">
-
-  <a href="https://t.me/ulitin_ru" class="card">
-    <h4>Телеграм-блог</h4>
-    <p>Веду Telegram-блог с заметками про AI, Product, UX, Research. Публикую записи клуба FWR</p>
-  </a>
   <a href="/articles" class="card">
     <h4>Статьи</h4>
     <p>Список моих статей.</p>
@@ -46,6 +41,14 @@ title: Кирилл Улитин
   <a href="/talks" class="card">
     <h4>Выступления</h4>
     <p>Список моих выступлений.</p>
+  </a>
+    <a href="https://t.me/ulitin_ru" class="card">
+    <h4>Телеграм-блог</h4>
+    <p>Веду Telegram-блог с заметками про AI, Product, UX, Research. Публикую записи клуба FWR</p>
+  </a>
+    <a href="https://www.youtube.com/@ulitin_ru" class="card">
+    <h4>Ютуб-канал</h4>
+    <p>Записи клуба FWR и многое другое</p>
   </a>
 <!--   <a href="/notes" class="card">
     <h4>Заметки</h4>
