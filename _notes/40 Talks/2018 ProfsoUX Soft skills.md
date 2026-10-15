@@ -1,6 +1,6 @@
 ---
 title: Что нужно знать UX-специалисту про гибкие навыки
-period: 2018-01-01
+period: 2018-04-14
 link: https://2018.profsoux.ru/papers/soft-skills
 cover:
 category: "talks"

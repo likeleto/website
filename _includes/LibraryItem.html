@@ -21,7 +21,7 @@
             <div class="library-description">
                 {{ include.note.content }}
                 {%- if include.note.date -%}
-                    <span class="library-date">{{ include.note.date | date: "%d %b %Y" }}</span>
+                    <span class="library-date">{% include RuDate.html date=include.note.date style="day" %}</span>
                 {%- endif -%}
             </div>
         {%- endif -%}

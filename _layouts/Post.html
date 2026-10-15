@@ -4,10 +4,13 @@
 <head>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="{{ site.title | default: site.heading }}" property="og:site_name" />
-    <meta content="{{ site.description | default: 'A Jekyll Garden site' }}" property="og:description">
+    {%- assign meta_description = page.description | default: site.description | strip -%}
+    {%- if meta_description == "" -%}{%- assign meta_description = site.description -%}{%- endif -%}
+    <meta name="description" content="{{ meta_description | escape }}">
+    <meta content="{{ meta_description | escape }}" property="og:description">
     <meta content="{{ site.url }}/about/" property="article:author">
     {%- if site.og_image -%}
-    <meta property="og:image" content="{{ site.baseurl }}{{ site.og_image }}">
+    <meta property="og:image" content="{{ site.url }}{{ site.og_image }}">
     {%- endif -%}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,13 +24,13 @@
     <meta content="{{ site.url }}{{ page.url }}" property="og:url">
     {%- endif -%}
 
-    <title>{%- if page.title -%}{{ page.title }} - {%- endif -%}{{ site.heading }}</title>
+    <title>{%- if page.title and page.title != site.title -%}{{ page.title }} — {% endif -%}{{ site.heading }}</title>
     <link rel="canonical" href="{{site.url}}{{page.url}}" />
     {%- if site.apple_touch_icon -%}
     <link rel="apple-touch-icon" href="{{ site.baseurl }}{{ site.apple_touch_icon }}">
     {%- endif -%}
     {%- if site.favicon -%}
-    <link rel="icon" href="{{ site.baseurl }}{{ site.favicon }}" type="image/svg+xml" sizes="any" />
+    <link rel="icon" href="{{ site.baseurl }}{{ site.favicon }}" type="image/png" />
     {%- endif -%}
     {%- if site.css_file -%}
     <link href="{{ site.baseurl }}{{ site.css_file }}" rel="stylesheet" media="all" class="default" />
@@ -47,7 +50,6 @@
         {%- endif -%}
     <![endif]-->
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
-    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/notes-feed.xml" title="Notes Feed">
     <script src="{{ site.baseurl }}/assets/js/wiki-links.js" defer></script>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1CR53QKVHD"></script>
@@ -91,7 +93,7 @@
                   {% assign back_url = '/' | append: cat_slug %}
                 {% endif %}
                 <div class="back-button-container">
-                  <a class="back-button" href="{{ site.baseurl }}{{ back_url }}">&larr; Back</a>
+                  <a class="back-button" href="{{ site.baseurl }}{{ back_url }}">&larr; Назад</a>
                 </div>
                 <h1>{{page.title}}</h1>
                 {%- include Content.html -%}

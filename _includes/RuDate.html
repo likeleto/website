@@ -1,0 +1,17 @@
+{%- comment -%}
+  Дата по-русски.
+  style="month" (по умолчанию): «сентябрь 2025», а для 1 января — только год.
+  style="day": «18 сентября 2026».
+{%- endcomment -%}
+{%- assign ru_date_m = include.date | date: "%-m" | minus: 1 -%}
+{%- assign ru_date_y = include.date | date: "%Y" -%}
+{%- assign ru_date_md = include.date | date: "%m-%d" -%}
+{%- if include.style == "day" -%}
+  {%- assign ru_months = "января,февраля,марта,апреля,мая,июня,июля,августа,сентября,октября,ноября,декабря" | split: "," -%}
+  {{ include.date | date: "%-d" }} {{ ru_months[ru_date_m] }} {{ ru_date_y }}
+{%- elsif ru_date_md == "01-01" -%}
+  {{ ru_date_y }}
+{%- else -%}
+  {%- assign ru_months = "январь,февраль,март,апрель,май,июнь,июль,август,сентябрь,октябрь,ноябрь,декабрь" | split: "," -%}
+  {{ ru_months[ru_date_m] }} {{ ru_date_y }}
+{%- endif -%}

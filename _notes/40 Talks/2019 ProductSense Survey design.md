@@ -1,6 +1,6 @@
 ---
 title: Дизайн онлайн-опросов
-period: 2019-01-01
+period: 2019-09-10
 link: https://sense23.com/academy/video/dizajn-onlajn-oprosov-pochemu-vy-delaete-ego-nepravilno-i-kak-vse-ispravit-mojofis-kirill-ulitin/
 cover:
 category: "talks"

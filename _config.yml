@@ -39,10 +39,12 @@ title: "Кирилл Улитин"
 heading: "Кирилл Улитин - UX, Design, Research"
 description: "Личный сайт и цифровой сад Кирилла Улитина"
 url: "https://ulitin.ru"
-baseurl: "/"
+baseurl: ""
 
 # Asset Configuration
-apple_touch_icon: "/assets/img/profile.png"
+apple_touch_icon: "/assets/img/apple-touch-icon.png"
+favicon: "/assets/img/favicon.png"
+og_image: "/assets/img/og-image.jpg"
 css_file: "/assets/css/style.css"
 ie_css: "/assets/css/ie-target.css"
 
@@ -104,6 +106,22 @@ katex: true
 exclude:
 - _notes/90 Private
 - .last_build_time
+- pages/notes.md
+- pages/logs.md
+- AGENTS.md
+- BUGS.md
+- README.md
+- LICENSE
+- Dockerfile
+- docker-compose.yml
+- debug.yml
+- blog.code-workspace
+- autocomplete.txt
+- utilities
+- Gemfile
+- Gemfile.lock
+- vendor
+- .jekyll-cache
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

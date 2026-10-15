@@ -7,5 +7,5 @@ category: "talks"
 meta-lang: Russian
 meta-year: 2025
 meta-people:
-meta-publisher: BiasCOonf
+meta-publisher: BiasConf
 ---

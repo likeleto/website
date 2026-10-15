@@ -1,6 +1,6 @@
 ---
 title: IA Спринт
-period: 2016-01-01
+period: 2016-02-23
 link: 
 cover:
 category: "talks"

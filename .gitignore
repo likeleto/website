@@ -6,3 +6,9 @@ _notes/.obsidian
 _notes/Public/.obsidian
 _notes/90 Private
 .last_build_time
+BUGS.md
+AGENTS.md
+
+.DS_Store
+.bundle
+vendor

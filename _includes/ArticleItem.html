@@ -14,10 +14,7 @@
     
     {%- if include.note.period -%}
         <div class="project-period">
-            {%- assign date = include.note.period | date: "%Y-%m-%d" -%}
-            {%- assign month = date | date: "%B" -%}
-            {%- assign year = date | date: "%Y" -%}
-            <span class="period-pill">{{ month }} {{ year }}</span>
+            <span class="period-pill">{% include RuDate.html date=include.note.period %}</span>
         </div>
     {%- endif -%}
 </div> 

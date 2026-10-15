@@ -1,6 +1,6 @@
 ---
 title: Подходы к оценке эмоций
-period: 2018-01-01
+period: 2018-11-01
 link: 
 cover:
 category: "talks"

@@ -1,6 +1,6 @@
 <div class="footer">
   <div class="footer-left">
-    <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <button class="theme-toggle" aria-label="Переключить тёмную тему" title="Переключить тёмную тему">
         <svg viewBox="0 0 14 14" width="17.5" height="17.5" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <circle cx="7" cy="7" r="5"/>
       </svg>
@@ -8,7 +8,7 @@
   </div>
   <div class="footer-left">
     <h6>
-      {{ site.footer.copyright }}
+      <a href="{{ site.baseurl }}/contact">Контакты</a> &middot;&nbsp;{{ site.footer.copyright }}
       {%- if site.footer.credits.enabled -%}
       <a href="{{ site.baseurl }}{{ site.footer.credits.url }}">{{ site.footer.credits.text }}</a>
       {%- endif -%}

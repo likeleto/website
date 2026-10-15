@@ -1,6 +1,6 @@
 ---
 title: The Future Of Text
-period: 2019-01-01
+period: 2019-03-01
 link: 
 cover:
 category: "talks"

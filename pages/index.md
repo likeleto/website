@@ -21,15 +21,18 @@ title: Кирилл Улитин
 
     <a href="/CV_Ulitin_Kirill_Principal_Researcher.pdf" class="card">
     <h4>Principal Researcher</h4>
-    <p>Углубляю методологию, влияю через данные. 400+ исследований, 70 лично. ИИ, кач/колич, аналитка Смотреть резюме...</p>
+    <p>Углубляю методологию, влияю через данные. 400+ исследований, 70 лично. ИИ, кач/колич, аналитика. Смотреть резюме...</p>
   </a>
 
 </div>
+<p>
+  Написать: <a href="mailto:kirill@ulitin.ru">kirill@ulitin.ru</a> или в Telegram <a href="https://t.me/ulitin_kirill">@ulitin_kirill</a>
+</p>
 
 <h3>Текущий статус</h3>
 <div>
   {% assign now_page = site.pages | where: "permalink", "/now" | first %}
-  {% capture content_with_date %}{{ now_page.content }} <span class="small-link"><a href="/now">{{ now_page.date | date: "%d %b %Y" }}</a></span>{% endcapture %}
+  {% capture content_with_date %}{{ now_page.content }} <span class="small-link"><a href="/now">{% include RuDate.html date=now_page.date style="day" %}</a></span>{% endcapture %}
   {{ content_with_date | markdownify }}
 </div>
 

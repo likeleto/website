@@ -1,6 +1,6 @@
 ---
 title: UI Animation
-period: 2016-01-01
+period: 2016-04-02
 cover:
 category: "talks"
 meta-lang: Russian

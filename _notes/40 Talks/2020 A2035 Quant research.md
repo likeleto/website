@@ -1,6 +1,6 @@
 ---
 title: Количественные исследования на практике. Как опросы и немодерируемые тесты помогают создавать востребованный продукт
-period: 2020-01-01
+period: 2020-08-04
 link: https://habr.com/ru/companies/ncloudtech/articles/568880/
 cover:
 category: "talks"

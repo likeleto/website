@@ -1,6 +1,6 @@
 ---
 title: Особенности проектирования UX медицинских систем и приложений
-period: 2016-01-01
+period: 2016-04-20
 link: https://2016.profsoux.ru/papers/paper-138
 cover:
 category: "talks"

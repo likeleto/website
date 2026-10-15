@@ -1,6 +1,6 @@
 ---
 title: Цвет в интерфейсе
-period: 2020-01-01
+period: 2020-11-01
 link: 
 cover:
 category: "talks"

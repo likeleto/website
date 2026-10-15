@@ -1,6 +1,6 @@
 ---
 title: BCI Залезть человеку в голову
-period: 2017-01-01
+period: 2017-04-15
 link: https://2017.profsoux.ru/papers/bci
 cover:
 category: "talks"

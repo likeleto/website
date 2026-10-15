@@ -1,6 +1,6 @@
 ---
 title: Как создавать свои плагины в Sketch
-period: 2017-01-01
+period: 2017-10-28
 link: 
 cover:
 category: "talks"

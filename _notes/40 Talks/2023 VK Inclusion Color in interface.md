@@ -1,6 +1,6 @@
 ---
 title: Когда зелёный — это хорошо, плохо или «эксель»? Как мы исправляли факапы визуальной доступности
-period: 2023-01-01
+period: 2023-10-27
 link: https://team.vk.company/vkinclusion23/
 cover:
 category: "talks"

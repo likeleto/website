@@ -1,6 +1,6 @@
 ---
 title: Сессия Дизайнерские факапы
-period: 2018-01-01
+period: 2018-06-01
 link: 
 cover:
 category: "talks"

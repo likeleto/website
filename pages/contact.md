@@ -5,4 +5,5 @@ title: Поговорим?
 content-type: static
 ---
 
-<a href="mailto:kirill@ulitin.ru">Моя почта</a>
+Почта: <a href="mailto:kirill@ulitin.ru">kirill@ulitin.ru</a><br/>
+Telegram: <a href="https://t.me/ulitin_kirill">@ulitin_kirill</a>

@@ -1,6 +1,6 @@
 ---
 title: Алгоритмы в дизайне
-period: 2017-01-01
+period: 2016-12-03
 link:
 cover:
 category: "talks"
