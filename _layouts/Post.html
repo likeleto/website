@@ -42,23 +42,16 @@
     <link href="{{ site.baseurl }}/assets/css/vendor/Katex.css" rel="stylesheet" media="all" class="default" />
     {%- endif -%}
 
-    <!--[if IE]>
-        {%- if site.ie_css -%}
-        <link href="{{ site.baseurl }}{{ site.ie_css }}" rel="stylesheet" type="text/css"/>
-        {%- else -%}
-        <link href="{{ site.baseurl }}/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
-        {%- endif -%}
-    <![endif]-->
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
     <script src="{{ site.baseurl }}/assets/js/wiki-links.js" defer></script>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1CR53QKVHD"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7SPTTSDJVH"></script>
 <script>
-/*   window.dataLayer = window.dataLayer || [];
+  window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-1CR53QKVHD'); */
+  gtag('config', 'G-7SPTTSDJVH');
 </script>
 </head>
 
@@ -68,20 +61,12 @@
             {%- include Nav.html -%}
             
             {%- if page.permalink == "/" -%}
-                {%- if site.preferences.homepage.enabled -%}
-                    {%- include Content.html -%}
-                {%- else -%}
-                    <h1>{{page.title}}</h1>
-                    {%- include Content.html -%}
-                    {%- include Search.html -%}
-                    {%- include Feed.html -%}
-                {%- endif -%}
+                {%- include Content.html -%}
             {%- endif -%}
 
             {%- if page.permalink == "/notes" -%}
                 <h1>{{page.title}}</h1>
                 {%- include Content.html -%}
-                {%- include Search.html -%}
             {%- endif -%}
 
             {%- if page.content-type == "notes" -%}
@@ -115,22 +100,7 @@
                 {%- include Content.html -%}
             {%- endif -%}
             
-            {%- if page.permalink == "/blog" -%}
-                <div class="feed-container">
-                {% assign post_items = site.posts | sort: "date" | reverse %}
-                {% for post_items in post_items %}
-                    {%- if post_items.feed == "show" -%}
-                            <div class="notelist-feed">
-                                <a href="{{ site.baseurl }}{{post_items.url}}">
-                                    <p>{{ post_items.title }}</p>
-                                </a>
-                            </div>
-                    {%- endif -%}
-                {%- endfor -%}
-                </div>
-            {%- endif -%}
-
-            {%- unless page.permalink == "/" or page.permalink == "/notes" or page.permalink == "/blog" or page.content-type == "notes" or page.content-type == "post" or page.content-type == "static" -%}
+            {%- unless page.permalink == "/" or page.permalink == "/notes" or page.content-type == "notes" or page.content-type == "post" or page.content-type == "static" -%}
                 {%- if page.description -%}
                     <div class="page-header">
                         <h1>{{page.title}}</h1>
@@ -149,14 +119,12 @@
     document.addEventListener('DOMContentLoaded', function() {
       var links = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
       links.forEach(function(link) {
-        var href = link.getAttribute('href');
-        // Only modify if not internal (ulitin.ru) and not an anchor
-        if (!href.match(/^https?:\/\/(www\.)?ulitin\.ru(\/|$)/) && !href.startsWith('#')) {
-          if (href.indexOf('?') === -1) {
-            link.setAttribute('href', href + '?ref=ulitin.ru');
-          } else if (!href.match(/[?&]ref=ulitin\.ru/)) {
-            link.setAttribute('href', href + '&ref=ulitin.ru');
-          }
+        var url;
+        try { url = new URL(link.getAttribute('href')); } catch (e) { return; }
+        // Only modify if not internal (ulitin.ru); URL keeps ?ref before #anchor
+        if (!/^(www\.)?ulitin\.ru$/.test(url.hostname) && !url.searchParams.has('ref')) {
+          url.searchParams.set('ref', 'ulitin.ru');
+          link.setAttribute('href', url.toString());
         }
       });
     });

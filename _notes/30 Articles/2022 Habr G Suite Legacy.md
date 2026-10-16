@@ -5,7 +5,7 @@ link: https://habr.com/ru/companies/ncloudtech/articles/649007/
 cover:
 category: "articles"
 meta-lang: Russian
-meta-year: 2021
+meta-year: 2022
 meta-people:
 meta-publisher: Habr
 ---

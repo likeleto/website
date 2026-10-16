@@ -1,11 +1,11 @@
 ---
 title: IA Спринт
-period: 2016-02-23
+period: 2018-02-23
 link: 
 cover:
 category: "talks"
 meta-lang: Russian
-meta-year: 2016
+meta-year: 2018
 meta-people:
 meta-publisher: World Information Architecture Day
 ---

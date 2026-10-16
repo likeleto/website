@@ -23,10 +23,6 @@
 
 # Preferences (controls template behavior)
 preferences:
-  homepage:
-    enabled: true
-  search:
-    enabled: false
   backlinks:
     enabled: true
   pagepreview:
@@ -46,16 +42,6 @@ apple_touch_icon: "/assets/img/apple-touch-icon.png"
 favicon: "/assets/img/favicon.png"
 og_image: "/assets/img/og-image.jpg"
 css_file: "/assets/css/style.css"
-ie_css: "/assets/css/ie-target.css"
-
-# Menu Items
-menu:
-  - title: "Заметки"
-    url: "/notes"
-  - title: "Блог"
-    url: "/blog"
-  - title: "Обо мне"
-    url: "/about"
 
 # Footer
 footer:
@@ -115,9 +101,6 @@ exclude:
 - Dockerfile
 - docker-compose.yml
 - debug.yml
-- blog.code-workspace
-- autocomplete.txt
-- utilities
 - Gemfile
 - Gemfile.lock
 - vendor
