@@ -8,4 +8,5 @@ meta-lang: Russian
 meta-year: 2018
 meta-people:
 meta-publisher: World Information Architecture Day
+video: 4s4KqtbTXOs
 ---

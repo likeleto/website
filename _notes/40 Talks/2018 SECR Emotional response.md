@@ -8,4 +8,5 @@ meta-lang: Russian
 meta-year: 2018
 meta-people:
 meta-publisher: Software Engineering Conference Russia
+video: AqxbKiucCiQ
 ---

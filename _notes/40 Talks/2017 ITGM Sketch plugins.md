@@ -8,4 +8,5 @@ meta-lang: Russian
 meta-year: 2017
 meta-people:
 meta-publisher: IT Global Meetup 11
+video: tObwFvgv4Go
 ---

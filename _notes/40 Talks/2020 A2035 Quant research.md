@@ -8,4 +8,5 @@ meta-lang: Russian
 meta-year: 2020
 meta-people:
 meta-publisher: Архипелаг 2035
+video: yJvdBjpLEY4
 ---

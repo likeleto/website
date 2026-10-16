@@ -8,4 +8,5 @@ meta-lang: Russian
 meta-year: 2018
 meta-people:
 meta-publisher: World Usability Day ITMO
+video: Pp-OQzVo4NU
 ---

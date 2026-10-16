@@ -8,4 +8,5 @@ meta-lang: Russian
 meta-year: 2019
 meta-people:
 meta-publisher: IT Global Meetup 14
+video: kSFHydwcEWk
 ---

@@ -81,6 +81,12 @@
                   <a class="back-button" href="{{ site.baseurl }}{{ back_url }}">&larr; Назад</a>
                 </div>
                 <h1>{{page.title}}</h1>
+                {%- if page.video -%}
+                {%- assign video = page.video | split: "?t=" -%}
+                <div class="video-embed">
+                  <iframe src="https://www.youtube-nocookie.com/embed/{{ video[0] }}{% if video[1] %}?start={{ video[1] | remove: 's' }}{% endif %}" title="{{ page.title | escape }}" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                {%- endif -%}
                 {%- include Content.html -%}
                 {%- if site.preferences.backlinks.enabled -%}
                 {%- include Backlinks.html -%}

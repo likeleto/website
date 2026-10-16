@@ -8,4 +8,5 @@ meta-lang: Russian
 meta-year: 2020
 meta-people:
 meta-publisher: World Usability Day ITMO
+video: FC_Mumls1EU
 ---

@@ -8,4 +8,5 @@ meta-lang: Russian
 meta-year: 2018
 meta-people:
 meta-publisher: ProfsoUX
+video: og_6crJxhdg
 ---

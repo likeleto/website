@@ -8,4 +8,5 @@ meta-lang: Russian
 meta-year: 2025
 meta-people:
 meta-publisher: BiasConf
+video: RIuwiVipygE
 ---
